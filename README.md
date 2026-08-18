@@ -38,18 +38,18 @@ Config menu is showed pressing 'g' during MSX logo. Menu is created by [nataliap
 
 ![Config](/pics/config6.png)
 
-* Enable Megaram: On by default. Disable when having compatibility issues or to use a different megaram
-* Enable SD: On by default. Disable when using an external SD mapper
+* Enable Megaram: On by default. Disable when having compatibility issues
+* Enable SD: On by default. Disable to boot directly to basic
 * Mapper Slot: 3 by default. Change to 1 or 2 to get mapper in a not expanded slot
 * Megaram Slot: 3 by default. Change to 1 or 2 to get megaram in a not expanded slot
 * Enable Scanlines: On by default. Disable to get a clean hdmi picture
-* Turbo: Off by default. Enable to use an internal high-speed clock. Recommended for internal SD use only
+* Turbo: Off by default. Enable to use an internal high-speed clock
 * Save & Exit: store new config and continue, changes in mapper settings will be effective after pressing reset
 * Save & Reset: store new config and make software reset, changes will be immediate
 
 ## Known issues
 * Keyboard layout may be different
-* Tape games fail: use poke -1,0
+* High sensitivity to dirty contacts, keep them clean
 
 
 ## Flashing
