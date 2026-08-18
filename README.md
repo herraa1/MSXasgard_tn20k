@@ -1,6 +1,8 @@
 # MSXasgard_tn20k
 MSX2+ in a cartridge
 
+![MSX_Asgard](/pics/msx_asgard.jpg)
+
 MSX Asgard is a cartridge to turn one MSX into an MSX2+. Host MSX provides:
 * Keyboard
 * Joysticks
@@ -9,7 +11,7 @@ FPGA in board contains:
 * Z80
 * V9958 with hdmi output
 * MSX2+ BIOS
-* SD Card support + Nextor 2.1
+* SD Card support + Nextor 2.14
 * 4MB mapper
 * 2MB megaram SCC
 * RTC
