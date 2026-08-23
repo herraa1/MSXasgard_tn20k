@@ -87,6 +87,7 @@ WARN  (EX2478) : Non-net output port 'tmds' cannot be initialized at declaration
 Analyzing Verilog file 'D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\impulse.v'
 Analyzing Verilog file 'D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\lpf_butter4_8k.v'
 Analyzing Verilog file 'D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\megaram.v'
+Analyzing Verilog file 'D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\mp_debouncer.v'
 Analyzing Verilog file 'D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\memory.v'
 Analyzing Verilog file 'D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\kanji.v'
 Analyzing Verilog file 'D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\rtc.v'
@@ -103,7 +104,7 @@ Analyzing Verilog file 'D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\
 Analyzing Verilog file 'D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\wondertang\sd_reader.sv'
 Analyzing Verilog file 'D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\wondertang\sdcmd_ctrl.sv'
 Analyzing Verilog file 'D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\xchg_regs.v'
-Analyzing Verilog file 'D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\top.v'
+Analyzing Verilog file 'D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\top_wt101c.v'
 Analyzing Verilog file 'D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\vdp\ram.v'
 Analyzing Verilog file 'D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\vdp\vdp.v'
 Analyzing included file 'D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\vdp\vdp_config.vh'("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\vdp\vdp.v":15)
@@ -207,18 +208,17 @@ Analyzing architecture 'rtl'("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_
 Analyzing VHDL file 'D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd'
 Analyzing entity 'wifi'("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd":97)
 Analyzing architecture 'behavior'("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd":113)
-Compiling module 'top'("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\top.v":3)
+Compiling module 'top'("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\top_wt101c.v":3)
 Compiling module 'CLK_108P'("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\gowin\clk_108p.v":10)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'reset'("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\top.v":79)
-Switching to VHDL mode to elaborate design unit 'Gowin_CLKDIV2'("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\top.v":88)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'reset'("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\top_wt101c.v":73)
+Switching to VHDL mode to elaborate design unit 'Gowin_CLKDIV2'("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\top_wt101c.v":82)
 Processing 'Gowin_CLKDIV2(Behavioral)'("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\gowin_clkdiv2\gowin_clkdiv2.vhd":13)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'resetn'("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\top.v":87)
-Returning to Verilog mode to proceed with elaboration("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\top.v":88)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'resetn'("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\top_wt101c.v":81)
+Returning to Verilog mode to proceed with elaboration("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\top_wt101c.v":82)
 Compiling module 'Gowin_CLKDIV'("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\gowin_clkdiv\gowin_clkdiv.v":10)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'resetn'("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\top.v":94)
-Compiling module 'PINFILTER'("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\wondertang\pinfilter.v":1)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'reset_n'("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\top.v":100)
-Compiling module 'slave_bus'("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\slave_bus.v":26)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'resetn'("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\top_wt101c.v":88)
+Compiling module 'mp_debouncer'("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\mp_debouncer.v":1)
+Compiling module 'slave_bus(DIR_DELAY=4'd2)'("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\slave_bus.v":26)
 Compiling module 'slave_rom'("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\slave_rom.v":19)
 Extracting RAM for identifier 'mem_r'("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\slave_rom.v":25)
 WARN  (EX3073) : Port 'io41_id212_n' remains unconnected for this instance("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\asgard.v":1928)
@@ -482,8 +482,8 @@ WARN  (EX0211) : The output port "adc_cs" of module "vdp_top" has no driver, ass
 WARN  (EX0211) : The output port "adc_mosi" of module "vdp_top" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\vdp\vdp_top.v":30)
 WARN  (EX0211) : The output port "write_terminate" of module "flash(STARTUP_WAIT=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\flash_rw.v":24)
 [5%] Running netlist conversion ...
-WARN  (CV0016) : Input s1 is unused("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\top.v":6)
-WARN  (CV0016) : Input ex_bus_clk_3m6 is unused("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\top.v":10)
+WARN  (CV0016) : Input s1 is unused("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\top_wt101c.v":6)
+WARN  (CV0016) : Input cpu_clkin is unused("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\top_wt101c.v":18)
 Running device independent optimization ...
 [10%] Optimizing Phase 0 completed
 [15%] Optimizing Phase 1 completed
@@ -541,6 +541,6 @@ WARN  (NL0002) : The module "VDP_LINEBUF" instantiated to "U_BUF_GE" is swept in
 WARN  (NL0002) : The module "VDP_LINEBUF" instantiated to "U_BUF_GO" is swept in optimizing("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\vdp\vdp_doublebuf.v":87)
 WARN  (NL0002) : The module "VDP_LINEBUF" instantiated to "U_BUF_RE" is swept in optimizing("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\vdp\vdp_doublebuf.v":54)
 WARN  (NL0002) : The module "VDP_LINEBUF" instantiated to "U_BUF_RO" is swept in optimizing("D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\vdp\vdp_doublebuf.v":79)
-[95%] Generate netlist file "D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\impl\gwsynthesis\MSX_asgard.vg" completed
-[100%] Generate report file "D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\impl\gwsynthesis\MSX_asgard_syn.rpt.html" completed
+[95%] Generate netlist file "D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\impl\gwsynthesis\MSX_asgard_wt101c.vg" completed
+[100%] Generate report file "D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\impl\gwsynthesis\MSX_asgard_wt101c_syn.rpt.html" completed
 GowinSynthesis finish

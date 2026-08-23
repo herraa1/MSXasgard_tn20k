@@ -52,7 +52,14 @@ PPIC_CAPSOFF equ #40		; b6 = 1 apaga el LED de CAPS
 ; R15 del PSG (salidas):
 ;   b0-b3  pines 6 y 7 de los dos puertos. TIENEN que estar a 1 para poder leer
 ;          los gatillos en r#14; a 0 los botones no responderian nunca.
-;   b4-b5  pin 8 de cada puerto, en alto = reposo.
+;   b4-b5  pin 8 de cada puerto. NO es una señal en reposo: es el RETORNO COMUN
+;          de los contactos del mando. En un joystick MSX estandar las
+;          direcciones y los disparos no van a masa, van al pin 8, y las
+;          entradas del PSG tienen pull-up. Con el pin 8 en ALTO, cerrar un
+;          contacto no tira de nada y no se detecta NUNCA una pulsacion. Hay que
+;          bajar el del puerto que se este leyendo.
+;          (Los mandos de estilo Atari llevan el comun a masa y funcionan igual
+;          con el pin 8 alto; por eso el fallo pasaba desapercibido.)
 ;   b6     seleccion de puerto para r#14: 0 = puerto 1, 1 = puerto 2.
 ;   b7     LED KANA, 1 = apagado.
 PSG_R15         equ #BF	; KANA apagado, puerto 1
@@ -215,10 +222,11 @@ main_loop:
 	cp   16
 	jr   nz,.row_loop
 
-	; --- Joystick puerto 1 (R15 b6 = 0) ---
+	; --- Joystick puerto 1 (R15 b6 = 0, pin 8 del puerto 1 a bajo) ---
 	ld   a,#0F
 	out  (PSG_ADDR),a
 	ld   a,d
+	and  #EF				; b4 = 0: baja el pin 8 del puerto 1
 	out  (PSG_WDATA),a
 	ld   a,#0E
 	out  (PSG_ADDR),a
@@ -227,11 +235,12 @@ main_loop:
 	in   a,(PSG_RDATA)
 	ld   (XCHG_JOY1),a
 
-	; --- Joystick puerto 2 (R15 b6 = 1) ---
+	; --- Joystick puerto 2 (R15 b6 = 1, pin 8 del puerto 2 a bajo) ---
 	ld   a,#0F
 	out  (PSG_ADDR),a
 	ld   a,d
-	or   #40
+	or   #40				; b6 = 1: selecciona el puerto 2
+	and  #DF				; b5 = 0: baja el pin 8 del puerto 2
 	out  (PSG_WDATA),a
 	ld   a,#0E
 	out  (PSG_ADDR),a

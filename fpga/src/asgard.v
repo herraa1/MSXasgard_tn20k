@@ -1020,7 +1020,14 @@ memory_ctrl mem1 (
     // DOS puertos del anfitrion en cada pasada, asi que el multiplexado lo hace
     // aqui con el bit 6 del registro 15 (0 = puerto 1, 1 = puerto 2) y no hay
     // viaje de ida y vuelta en la ruta de lectura.
-    assign psgPA = (psg_port_b[6] == 0) ? xchg_joy1 : xchg_joy2;
+    // Se honra ademas el pin 8 (b4 para el puerto 1, b5 para el 2), que es el
+    // retorno comun de los contactos del mando: con el en ALTO un joystick
+    // estandar no puede señalar nada, asi que se devuelve "nada pulsado".
+    // El proxy siempre lo baja al muestrear, asi que sin esto el MSX2+ veria el
+    // mando responder incluso con su pin 8 alto, que es la anomalia que detectan
+    // las rutinas de identificacion de dispositivo tipo HID test.
+    assign psgPA = (psg_port_b[6] == 0) ? (psg_port_b[4] ? 8'hff : xchg_joy1)
+                                        : (psg_port_b[5] ? 8'hff : xchg_joy2);
     assign psgPB = 8'hff;   // entrada del puerto B: en MSX se usa como salida, aqui en reposo
 
     wire [7:0] psg_dout;

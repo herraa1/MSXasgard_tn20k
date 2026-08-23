@@ -722,6 +722,24 @@
   ]
  },
  {
+  "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/msx_debug/msx2p_debug.v",
+  "InstLine" : 2,
+  "InstName" : "msx2p_debug",
+  "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/msx_debug/msx2p_debug.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "msx2p_debug",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/msx_debug/print.v",
+    "InstLine" : 105,
+    "InstName" : "tx",
+    "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/msx_debug/uart_tx.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "uart_tx_V2"
+   }
+  ]
+ },
+ {
   "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/impulse.v",
   "InstLine" : 1,
   "InstName" : "impulse",
@@ -1355,7 +1373,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 1039,
+      "InstLine" : 1046,
       "InstName" : "psg1",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/PSG_YM2149/YM2149.vhdl",
       "ModuleLine" : 62,
@@ -1363,7 +1381,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 1086,
+      "InstLine" : 1093,
       "InstName" : "opll",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/ikaopll/opll_ikaopll.v",
       "ModuleLine" : 24,
@@ -1663,7 +1681,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 1144,
+      "InstLine" : 1151,
       "InstName" : "SccCh",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/ocm/scc_wave2.vhd",
       "ModuleLine" : 79,
@@ -1689,7 +1707,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 1178,
+      "InstLine" : 1185,
       "InstName" : "megaram1",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/megaram.v",
       "ModuleLine" : 1,
@@ -1697,7 +1715,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 1224,
+      "InstLine" : 1231,
       "InstName" : "filter2",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/lpf_butter4_8k.v",
       "ModuleLine" : 1,
@@ -1723,7 +1741,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 1257,
+      "InstLine" : 1264,
       "InstName" : "kanji1",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/ocm/kanji.v",
       "ModuleLine" : 43,
@@ -1731,7 +1749,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 1391,
+      "InstLine" : 1398,
       "InstName" : "mono",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/monostable/monostable.vhd",
       "ModuleLine" : 7,
@@ -1739,7 +1757,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 1505,
+      "InstLine" : 1512,
       "InstName" : "flash1",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/flash_rw.v",
       "ModuleLine" : 1,
@@ -1747,7 +1765,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 1757,
+      "InstLine" : 1764,
       "InstName" : "dpram1",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/wondertang/dpram.v",
       "ModuleLine" : 1,
@@ -1755,7 +1773,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 1776,
+      "InstLine" : 1783,
       "InstName" : "sd1",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/wondertang/sd_reader.sv",
       "ModuleLine" : 11,
@@ -1781,7 +1799,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 1909,
+      "InstLine" : 1916,
       "InstName" : "ocm_ports",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/ocm/swioports.vhd",
       "ModuleLine" : 38,
@@ -1789,7 +1807,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 1930,
+      "InstLine" : 1937,
       "InstName" : "mono2",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/monostable/monostable.vhd",
       "ModuleLine" : 7,
@@ -1797,7 +1815,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 1951,
+      "InstLine" : 1958,
       "InstName" : "debug1",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/msx_debug/timing_debug.v",
       "ModuleLine" : 2,
@@ -1912,24 +1930,6 @@
   "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/vdp/vencode.v",
   "ModuleLine" : 11,
   "ModuleName" : "VENCODE"
- },
- {
-  "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/msx_debug/msx2p_debug.v",
-  "InstLine" : 2,
-  "InstName" : "msx2p_debug",
-  "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/msx_debug/msx2p_debug.v",
-  "ModuleLine" : 2,
-  "ModuleName" : "msx2p_debug",
-  "SubInsts" : [
-   {
-    "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/msx_debug/print.v",
-    "InstLine" : 105,
-    "InstName" : "tx",
-    "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/msx_debug/uart_tx.v",
-    "ModuleLine" : 1,
-    "ModuleName" : "uart_tx_V2"
-   }
-  ]
  },
  {
   "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/G80A/T80s.vhd",

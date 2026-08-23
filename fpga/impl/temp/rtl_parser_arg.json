@@ -182,7 +182,15 @@
    "Type" : "verilog"
   },
   {
+   "Path" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/msx_debug/msx2p_debug.v",
+   "Type" : "verilog"
+  },
+  {
    "Path" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/msx_debug/timing_debug.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/msx_debug/uart_tx.v",
    "Type" : "verilog"
   },
   {
@@ -415,14 +423,6 @@
   },
   {
    "Path" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/vdp/vencode.v",
-   "Type" : "verilog"
-  },
-  {
-   "Path" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/msx_debug/msx2p_debug.v",
-   "Type" : "verilog"
-  },
-  {
-   "Path" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/msx_debug/uart_tx.v",
    "Type" : "verilog"
   },
   {

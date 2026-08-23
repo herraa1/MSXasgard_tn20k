@@ -73,6 +73,7 @@
         <File path="D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\impulse.v" type="verilog"/>
         <File path="D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\lpf_butter4_8k.v" type="verilog"/>
         <File path="D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\megaram.v" type="verilog"/>
+        <File path="D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\mp_debouncer.v" type="verilog"/>
         <File path="D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\memory.v" type="verilog"/>
         <File path="D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\kanji.v" type="verilog"/>
         <File path="D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\rtc.v" type="verilog"/>
@@ -87,7 +88,7 @@
         <File path="D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\wondertang\sd_reader.sv" type="verilog"/>
         <File path="D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\wondertang\sdcmd_ctrl.sv" type="verilog"/>
         <File path="D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\xchg_regs.v" type="verilog"/>
-        <File path="D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\top.v" type="verilog"/>
+        <File path="D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\top_wt101c.v" type="verilog"/>
         <File path="D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\vdp\ram.v" type="verilog"/>
         <File path="D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\vdp\vdp.v" type="verilog"/>
         <File path="D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\vdp\vdp_colordec.v" type="verilog"/>
@@ -132,7 +133,7 @@
         <Option type="disable_insert_pad" value="0"/>
         <Option type="global_freq" value="100.000"/>
         <Option type="looplimit" value="2000"/>
-        <Option type="output_file" value="D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\impl\gwsynthesis\MSX_asgard.vg"/>
+        <Option type="output_file" value="D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\impl\gwsynthesis\MSX_asgard_wt101c.vg"/>
         <Option type="print_all_synthesis_warning" value="0"/>
         <Option type="ram_rw_check" value="0"/>
         <Option type="top_module" value="top"/>
