@@ -20,14 +20,14 @@ FPGA in board contains:
 * Kanji Level 1 & 2
 
 
-## Board
+## Boards
 
-Current board is [MSXhdmi_tn20k](https://github.com/jabadiagm/MSXhdmi_tn20k)
+Supported boards are [MSXhdmi_tn20k](https://github.com/jabadiagm/MSXhdmi_tn20k) and [Wondertang 1.01c](https://github.com/lfantoniosi/WonderTANG)
 
 
 ## Slot map
 
-![Slot map](/pics/mapa_slots5.png)
+![Slot map](/pics/mapa_slots6.png)
 
 Mapper and megaram can be relocated to slots 1 or 2 using config menu.
 
@@ -38,7 +38,7 @@ Megaram is detected automatically by sofarun using default settings. When using 
 ## Configuration
 Config menu is showed pressing 'g' during MSX logo. Menu is created by [nataliapc](https://github.com/nataliapc)
 
-![Config](/pics/config6.png)
+![Config](/pics/config_asgard.png)
 
 * Enable Megaram: On by default. Disable when having compatibility issues
 * Enable SD: On by default. Disable to boot directly to basic
@@ -56,7 +56,7 @@ Config menu is showed pressing 'g' during MSX logo. Menu is created by [nataliap
 
 ## Flashing
 Programming is done in two steps:
-* Flash firmware MSX_asgard.fs  
+* Flash firmware MSX_asgard.fs on MSXhdmi_tn20k or MSX_asgard_wt101c.fs on Wondertang 1.01c
 
 ![Flash1a](/pics/flashing1a.png)
 ![Flash1b](/pics/flashing1b.png)
