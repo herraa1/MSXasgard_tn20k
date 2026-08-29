@@ -124,7 +124,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\hdmi\tmds_channel.sv
 D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\impulse.v<br>
 D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\lpf_butter4_8k.v<br>
 D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\megaram.v<br>
-D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\mp_debouncer.v<br>
+D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\is_msx2.v<br>
 D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\memory.v<br>
 D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\kanji.v<br>
 D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\rtc.v<br>
@@ -135,6 +135,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\svf_biquad.v<br>
 D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\wondertang\clockdiv.v<br>
 D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\wondertang\crc16.v<br>
 D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\wondertang\dpram.v<br>
+D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\wondertang\mp_debouncer.v<br>
 D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\wondertang\pinfilter.v<br>
 D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\wondertang\sd_reader.sv<br>
 D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\wondertang\sdcmd_ctrl.sv<br>
@@ -203,7 +204,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 </tr>
 <tr>
 <td class="label">Created Time</td>
-<td>Sun Aug 23 17:27:21 2026
+<td>Fri Aug 28 22:02:28 2026
 </td>
 </tr>
 <tr>
@@ -219,11 +220,11 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 </tr>
 <tr>
 <td class="label">Synthesis Process</td>
-<td>Running parser:<br/>&nbsp;&nbsp;&nbsp;&nbsp;CPU time = 0h 0m 3s, Elapsed time = 0h 0m 3s, Peak memory usage = 1055.086MB<br/>Running netlist conversion:<br/>&nbsp;&nbsp;&nbsp;&nbsp;CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s, Peak memory usage = 0MB<br/>Running device independent optimization:<br/>&nbsp;&nbsp;&nbsp;&nbsp;Optimizing Phase 0: CPU time = 0h 0m 16s, Elapsed time = 0h 0m 16s, Peak memory usage = 1055.086MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Optimizing Phase 1: CPU time = 0h 0m 8s, Elapsed time = 0h 0m 8s, Peak memory usage = 1055.086MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Optimizing Phase 2: CPU time = 0h 0m 10s, Elapsed time = 0h 0m 10s, Peak memory usage = 1055.086MB<br/>Running inference:<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 0: CPU time = 0h 0m 4s, Elapsed time = 0h 0m 4s, Peak memory usage = 1055.086MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 1: CPU time = 0h 0m 0.359s, Elapsed time = 0h 0m 0.343s, Peak memory usage = 1055.086MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 2: CPU time = 0h 0m 0.312s, Elapsed time = 0h 0m 0.287s, Peak memory usage = 1055.086MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 3: CPU time = 0h 0m 0.281s, Elapsed time = 0h 0m 0.281s, Peak memory usage = 1055.086MB<br/>Running technical mapping:<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 0: CPU time = 0h 0m 6s, Elapsed time = 0h 0m 6s, Peak memory usage = 1055.086MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 1: CPU time = 0h 0m 0.843s, Elapsed time = 0h 0m 0.841s, Peak memory usage = 1055.086MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 2: CPU time = 0h 0m 1s, Elapsed time = 0h 0m 1s, Peak memory usage = 1055.086MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 3: CPU time = 0h 1m 7s, Elapsed time = 0h 1m 7s, Peak memory usage = 1055.086MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 4: CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s, Peak memory usage = 1055.086MB<br/>Generate output files:<br/>&nbsp;&nbsp;&nbsp;&nbsp;CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s, Peak memory usage = 1055.086MB<br/></td>
+<td>Running parser:<br/>&nbsp;&nbsp;&nbsp;&nbsp;CPU time = 0h 0m 3s, Elapsed time = 0h 0m 3s, Peak memory usage = 367.078MB<br/>Running netlist conversion:<br/>&nbsp;&nbsp;&nbsp;&nbsp;CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s, Peak memory usage = 0MB<br/>Running device independent optimization:<br/>&nbsp;&nbsp;&nbsp;&nbsp;Optimizing Phase 0: CPU time = 0h 0m 15s, Elapsed time = 0h 0m 15s, Peak memory usage = 367.078MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Optimizing Phase 1: CPU time = 0h 0m 7s, Elapsed time = 0h 0m 7s, Peak memory usage = 367.078MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Optimizing Phase 2: CPU time = 0h 0m 9s, Elapsed time = 0h 0m 9s, Peak memory usage = 367.078MB<br/>Running inference:<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 0: CPU time = 0h 0m 3s, Elapsed time = 0h 0m 3s, Peak memory usage = 367.078MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 1: CPU time = 0h 0m 0.312s, Elapsed time = 0h 0m 0.316s, Peak memory usage = 367.078MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 2: CPU time = 0h 0m 0.265s, Elapsed time = 0h 0m 0.269s, Peak memory usage = 367.078MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 3: CPU time = 0h 0m 0.296s, Elapsed time = 0h 0m 0.272s, Peak memory usage = 367.078MB<br/>Running technical mapping:<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 0: CPU time = 0h 0m 6s, Elapsed time = 0h 0m 6s, Peak memory usage = 367.078MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 1: CPU time = 0h 0m 0.812s, Elapsed time = 0h 0m 0.816s, Peak memory usage = 367.078MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 2: CPU time = 0h 0m 1s, Elapsed time = 0h 0m 1s, Peak memory usage = 367.078MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 3: CPU time = 0h 1m 3s, Elapsed time = 0h 1m 4s, Peak memory usage = 386.012MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 4: CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s, Peak memory usage = 386.012MB<br/>Generate output files:<br/>&nbsp;&nbsp;&nbsp;&nbsp;CPU time = 0h 0m 1s, Elapsed time = 0h 0m 1s, Peak memory usage = 386.012MB<br/></td>
 </tr>
 <tr>
 <td class="label">Total Time and Memory Usage</td>
-<td>CPU time = 0h 2m 0.795s, Elapsed time = 0h 2m 0.752s, Peak memory usage = 1055.086MB</td>
+<td>CPU time = 0h 1m 51s, Elapsed time = 0h 1m 52s, Peak memory usage = 386.012MB</td>
 </tr>
 </table>
 <h1><a name="resource">Resource</a></h1>
@@ -267,19 +268,19 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 </tr>
 <tr>
 <td class="label"><b>Register </b></td>
-<td>6742</td>
+<td>6758</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspDFF</td>
-<td>548</td>
+<td>550</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspDFFE</td>
-<td>2339</td>
+<td>2337</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspDFFS</td>
-<td>57</td>
+<td>59</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspDFFSE</td>
@@ -287,31 +288,31 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspDFFR</td>
-<td>348</td>
+<td>350</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspDFFRE</td>
-<td>876</td>
+<td>888</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspDFFP</td>
-<td>25</td>
+<td>29</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspDFFPE</td>
-<td>150</td>
+<td>146</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspDFFC</td>
-<td>414</td>
+<td>416</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspDFFCE</td>
-<td>1791</td>
+<td>1789</td>
 </tr>
 <tr>
 <td class="label"><b>LUT </b></td>
-<td>11973</td>
+<td>11814</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspLUT1</td>
@@ -319,15 +320,15 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspLUT2</td>
-<td>1052</td>
+<td>1030</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspLUT3</td>
-<td>4016</td>
+<td>3849</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspLUT4</td>
-<td>6903</td>
+<td>6933</td>
 </tr>
 <tr>
 <td class="label"><b>ALU </b></td>
@@ -359,11 +360,11 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 </tr>
 <tr>
 <td class="label"><b>INV </b></td>
-<td>101</td>
+<td>99</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspINV</td>
-<td>101</td>
+<td>99</td>
 </tr>
 <tr>
 <td class="label"><b>IOLOGIC </b></td>
@@ -435,12 +436,12 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 </tr>
 <tr>
 <td class="label">Logic</td>
-<td>14070(12074 LUT, 1624 ALU, 62 RAM16) / 20736</td>
+<td>13909(11913 LUT, 1624 ALU, 62 RAM16) / 20736</td>
 <td>68%</td>
 </tr>
 <tr>
 <td class="label">Register</td>
-<td>6742 / 15915</td>
+<td>6758 / 15915</td>
 <td>43%</td>
 </tr>
 <tr>
@@ -450,7 +451,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp--Register as FF</td>
-<td>6742 / 15915</td>
+<td>6758 / 15915</td>
 <td>43%</td>
 </tr>
 <tr>
@@ -657,7 +658,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>1</td>
 <td>asgard1/vdp4/clk_bufg_inst/I</td>
 <td>100.000(MHz)</td>
-<td>74.063(MHz)</td>
+<td>73.164(MHz)</td>
 <td>14</td>
 <td>TOP</td>
 </tr>
@@ -673,7 +674,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>3</td>
 <td>clk_main/rpll_inst/CLKOUT.default_gen_clk</td>
 <td>108.000(MHz)</td>
-<td>183.150(MHz)</td>
+<td>185.322(MHz)</td>
 <td>6</td>
 <td>TOP</td>
 </tr>
@@ -681,7 +682,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>4</td>
 <td>div2/clkdiv_inst/CLKOUT.default_gen_clk</td>
 <td>54.000(MHz)</td>
-<td>43.952(MHz)</td>
+<td>43.156(MHz)</td>
 <td>10</td>
 <td>TOP</td>
 </tr>
@@ -689,8 +690,8 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>5</td>
 <td>div4/clkdiv_inst/CLKOUT.default_gen_clk</td>
 <td>27.000(MHz)</td>
-<td>64.047(MHz)</td>
-<td>14</td>
+<td>60.899(MHz)</td>
+<td>15</td>
 <td>TOP</td>
 </tr>
 </table>
@@ -700,11 +701,11 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <table class="summary_table">
 <tr>
 <td class="label">Slack</td>
-<td>-13.652</td>
+<td>-12.661</td>
 </tr>
 <tr>
 <td class="label">Data Arrival Time</td>
-<td>144.625</td>
+<td>143.634</td>
 </tr>
 <tr>
 <td class="label">Data Required Time</td>
@@ -750,7 +751,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>0.341</td>
 <td>tCL</td>
 <td>RR</td>
-<td>1898</td>
+<td>1914</td>
 <td>div2/clkdiv_inst/CLKOUT</td>
 </tr>
 <tr>
@@ -766,7 +767,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>2.260</td>
 <td>tC2Q</td>
 <td>RF</td>
-<td>3</td>
+<td>21</td>
 <td>asgard1/cpu1/u0/IStatus_0_s15/DO[8]</td>
 </tr>
 <tr>
@@ -782,7 +783,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>0.453</td>
 <td>tINS</td>
 <td>FF</td>
-<td>34</td>
+<td>25</td>
 <td>asgard1/cpu1/u0/RegAddrC_1_s10/F</td>
 </tr>
 <tr>
@@ -791,7 +792,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s12/I2</td>
+<td>asgard1/cpu1/u0/A_i_6_s12/I2</td>
 </tr>
 <tr>
 <td>134.445</td>
@@ -799,7 +800,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tINS</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s12/F</td>
+<td>asgard1/cpu1/u0/A_i_6_s12/F</td>
 </tr>
 <tr>
 <td>134.919</td>
@@ -807,7 +808,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s11/I1</td>
+<td>asgard1/cpu1/u0/A_i_6_s11/I1</td>
 </tr>
 <tr>
 <td>135.474</td>
@@ -815,7 +816,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tINS</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s11/F</td>
+<td>asgard1/cpu1/u0/A_i_6_s11/F</td>
 </tr>
 <tr>
 <td>135.948</td>
@@ -823,7 +824,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s10/I0</td>
+<td>asgard1/cpu1/u0/A_i_6_s10/I0</td>
 </tr>
 <tr>
 <td>136.465</td>
@@ -831,7 +832,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tINS</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s10/F</td>
+<td>asgard1/cpu1/u0/A_i_6_s10/F</td>
 </tr>
 <tr>
 <td>136.939</td>
@@ -839,15 +840,15 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s9/I1</td>
+<td>asgard1/cpu1/u0/A_i_6_s9/I1</td>
 </tr>
 <tr>
 <td>137.494</td>
 <td>0.555</td>
 <td>tINS</td>
 <td>FF</td>
-<td>19</td>
-<td>asgard1/cpu1/u0/A_i_7_s9/F</td>
+<td>22</td>
+<td>asgard1/cpu1/u0/A_i_6_s9/F</td>
 </tr>
 <tr>
 <td>137.968</td>
@@ -855,15 +856,15 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/ppi_req_w_s6/I1</td>
+<td>asgard1/n405_s10/I1</td>
 </tr>
 <tr>
 <td>138.523</td>
 <td>0.555</td>
 <td>tINS</td>
 <td>FF</td>
-<td>1</td>
-<td>asgard1/ppi_req_w_s6/F</td>
+<td>2</td>
+<td>asgard1/n405_s10/F</td>
 </tr>
 <tr>
 <td>138.997</td>
@@ -871,15 +872,15 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/n403_s10/I3</td>
+<td>asgard1/n405_s3/I3</td>
 </tr>
 <tr>
 <td>139.368</td>
 <td>0.371</td>
 <td>tINS</td>
 <td>FF</td>
-<td>3</td>
-<td>asgard1/n403_s10/F</td>
+<td>15</td>
+<td>asgard1/n405_s3/F</td>
 </tr>
 <tr>
 <td>139.842</td>
@@ -887,34 +888,18 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/vdp_csw_n_s3/I0</td>
+<td>asgard1/vdp_csr_n_s3/I2</td>
 </tr>
 <tr>
-<td>140.359</td>
-<td>0.517</td>
-<td>tINS</td>
-<td>FF</td>
-<td>1</td>
-<td>asgard1/vdp_csw_n_s3/F</td>
-</tr>
-<tr>
-<td>140.833</td>
-<td>0.474</td>
-<td>tNET</td>
-<td>FF</td>
-<td>1</td>
-<td>asgard1/vdp_csw_n_s2/I2</td>
-</tr>
-<tr>
-<td>141.286</td>
+<td>140.295</td>
 <td>0.453</td>
 <td>tINS</td>
 <td>FF</td>
-<td>4</td>
-<td>asgard1/vdp_csw_n_s2/F</td>
+<td>3</td>
+<td>asgard1/vdp_csr_n_s3/F</td>
 </tr>
 <tr>
-<td>141.760</td>
+<td>140.769</td>
 <td>0.474</td>
 <td>tNET</td>
 <td>FF</td>
@@ -922,7 +907,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>asgard1/vdp4/io_state_r_s4/I1</td>
 </tr>
 <tr>
-<td>142.315</td>
+<td>141.324</td>
 <td>0.555</td>
 <td>tINS</td>
 <td>FF</td>
@@ -930,7 +915,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>asgard1/vdp4/io_state_r_s4/F</td>
 </tr>
 <tr>
-<td>142.789</td>
+<td>141.798</td>
 <td>0.474</td>
 <td>tNET</td>
 <td>FF</td>
@@ -938,7 +923,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>asgard1/vdp4/io_state_r_s6/I3</td>
 </tr>
 <tr>
-<td>143.160</td>
+<td>142.169</td>
 <td>0.371</td>
 <td>tINS</td>
 <td>FF</td>
@@ -946,7 +931,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>asgard1/vdp4/io_state_r_s6/F</td>
 </tr>
 <tr>
-<td>143.634</td>
+<td>142.643</td>
 <td>0.474</td>
 <td>tNET</td>
 <td>FF</td>
@@ -954,7 +939,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>asgard1/vdp4/CpuDbo_7_s4/I0</td>
 </tr>
 <tr>
-<td>144.151</td>
+<td>143.160</td>
 <td>0.517</td>
 <td>tINS</td>
 <td>FF</td>
@@ -962,7 +947,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>asgard1/vdp4/CpuDbo_7_s4/F</td>
 </tr>
 <tr>
-<td>144.625</td>
+<td>143.634</td>
 <td>0.474</td>
 <td>tNET</td>
 <td>FF</td>
@@ -1041,12 +1026,12 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 </tr>
 <tr>
 <td class="label">Logic Level:</td>
-<td>13</td>
+<td>12</td>
 </tr>
 <tr>
 <td class="label">Arrival Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.360, 100.000%</td></tr>
 <tr>
-<td class="label">Arrival Data Path Delay:</td><td> cell: 5.872, 41.080%; route: 6.162, 43.109%; tC2Q: 2.260, 15.811%</td></tr>
+<td class="label">Arrival Data Path Delay:</td><td> cell: 5.355, 40.254%; route: 5.688, 42.757%; tC2Q: 2.260, 16.989%</td></tr>
 <tr>
 <td class="label">Required Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.360, 100.000%</td></tr>
 </table>
@@ -1056,11 +1041,11 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <table class="summary_table">
 <tr>
 <td class="label">Slack</td>
-<td>-11.816</td>
+<td>-10.907</td>
 </tr>
 <tr>
 <td class="label">Data Arrival Time</td>
-<td>142.789</td>
+<td>141.880</td>
 </tr>
 <tr>
 <td class="label">Data Required Time</td>
@@ -1106,7 +1091,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>0.341</td>
 <td>tCL</td>
 <td>RR</td>
-<td>1898</td>
+<td>1914</td>
 <td>div2/clkdiv_inst/CLKOUT</td>
 </tr>
 <tr>
@@ -1122,7 +1107,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>2.260</td>
 <td>tC2Q</td>
 <td>RF</td>
-<td>3</td>
+<td>21</td>
 <td>asgard1/cpu1/u0/IStatus_0_s15/DO[8]</td>
 </tr>
 <tr>
@@ -1138,7 +1123,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>0.453</td>
 <td>tINS</td>
 <td>FF</td>
-<td>34</td>
+<td>25</td>
 <td>asgard1/cpu1/u0/RegAddrC_1_s10/F</td>
 </tr>
 <tr>
@@ -1147,7 +1132,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s12/I2</td>
+<td>asgard1/cpu1/u0/A_i_6_s12/I2</td>
 </tr>
 <tr>
 <td>134.445</td>
@@ -1155,7 +1140,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tINS</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s12/F</td>
+<td>asgard1/cpu1/u0/A_i_6_s12/F</td>
 </tr>
 <tr>
 <td>134.919</td>
@@ -1163,7 +1148,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s11/I1</td>
+<td>asgard1/cpu1/u0/A_i_6_s11/I1</td>
 </tr>
 <tr>
 <td>135.474</td>
@@ -1171,7 +1156,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tINS</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s11/F</td>
+<td>asgard1/cpu1/u0/A_i_6_s11/F</td>
 </tr>
 <tr>
 <td>135.948</td>
@@ -1179,7 +1164,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s10/I0</td>
+<td>asgard1/cpu1/u0/A_i_6_s10/I0</td>
 </tr>
 <tr>
 <td>136.465</td>
@@ -1187,7 +1172,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tINS</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s10/F</td>
+<td>asgard1/cpu1/u0/A_i_6_s10/F</td>
 </tr>
 <tr>
 <td>136.939</td>
@@ -1195,15 +1180,15 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s9/I1</td>
+<td>asgard1/cpu1/u0/A_i_6_s9/I1</td>
 </tr>
 <tr>
 <td>137.494</td>
 <td>0.555</td>
 <td>tINS</td>
 <td>FF</td>
-<td>19</td>
-<td>asgard1/cpu1/u0/A_i_7_s9/F</td>
+<td>22</td>
+<td>asgard1/cpu1/u0/A_i_6_s9/F</td>
 </tr>
 <tr>
 <td>137.968</td>
@@ -1211,15 +1196,15 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/ppi_req_w_s6/I1</td>
+<td>asgard1/n405_s10/I1</td>
 </tr>
 <tr>
 <td>138.523</td>
 <td>0.555</td>
 <td>tINS</td>
 <td>FF</td>
-<td>1</td>
-<td>asgard1/ppi_req_w_s6/F</td>
+<td>2</td>
+<td>asgard1/n405_s10/F</td>
 </tr>
 <tr>
 <td>138.997</td>
@@ -1227,50 +1212,34 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/n403_s10/I3</td>
+<td>asgard1/n1110_s2/I2</td>
 </tr>
 <tr>
-<td>139.368</td>
-<td>0.371</td>
+<td>139.450</td>
+<td>0.453</td>
 <td>tINS</td>
 <td>FF</td>
-<td>3</td>
-<td>asgard1/n403_s10/F</td>
+<td>2</td>
+<td>asgard1/n1110_s2/F</td>
 </tr>
 <tr>
-<td>139.842</td>
+<td>139.924</td>
 <td>0.474</td>
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/vdp_csw_n_s3/I0</td>
+<td>asgard1/vdp_csw_n_s3/I2</td>
 </tr>
 <tr>
-<td>140.359</td>
-<td>0.517</td>
-<td>tINS</td>
-<td>FF</td>
-<td>1</td>
-<td>asgard1/vdp_csw_n_s3/F</td>
-</tr>
-<tr>
-<td>140.833</td>
-<td>0.474</td>
-<td>tNET</td>
-<td>FF</td>
-<td>1</td>
-<td>asgard1/vdp_csw_n_s2/I2</td>
-</tr>
-<tr>
-<td>141.286</td>
+<td>140.377</td>
 <td>0.453</td>
 <td>tINS</td>
 <td>FF</td>
 <td>4</td>
-<td>asgard1/vdp_csw_n_s2/F</td>
+<td>asgard1/vdp_csw_n_s3/F</td>
 </tr>
 <tr>
-<td>141.760</td>
+<td>140.851</td>
 <td>0.474</td>
 <td>tNET</td>
 <td>FF</td>
@@ -1278,7 +1247,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>asgard1/vdp4/n77_s2/I1</td>
 </tr>
 <tr>
-<td>142.315</td>
+<td>141.406</td>
 <td>0.555</td>
 <td>tINS</td>
 <td>FF</td>
@@ -1286,7 +1255,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>asgard1/vdp4/n77_s2/F</td>
 </tr>
 <tr>
-<td>142.789</td>
+<td>141.880</td>
 <td>0.474</td>
 <td>tNET</td>
 <td>FF</td>
@@ -1365,12 +1334,12 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 </tr>
 <tr>
 <td class="label">Logic Level:</td>
-<td>11</td>
+<td>10</td>
 </tr>
 <tr>
 <td class="label">Arrival Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.360, 100.000%</td></tr>
 <tr>
-<td class="label">Arrival Data Path Delay:</td><td> cell: 4.984, 40.006%; route: 5.214, 41.853%; tC2Q: 2.260, 18.141%</td></tr>
+<td class="label">Arrival Data Path Delay:</td><td> cell: 4.549, 39.389%; route: 4.740, 41.042%; tC2Q: 2.260, 19.569%</td></tr>
 <tr>
 <td class="label">Required Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.360, 100.000%</td></tr>
 </table>
@@ -1380,11 +1349,11 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <table class="summary_table">
 <tr>
 <td class="label">Slack</td>
-<td>-11.816</td>
+<td>-10.907</td>
 </tr>
 <tr>
 <td class="label">Data Arrival Time</td>
-<td>142.789</td>
+<td>141.880</td>
 </tr>
 <tr>
 <td class="label">Data Required Time</td>
@@ -1430,7 +1399,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>0.341</td>
 <td>tCL</td>
 <td>RR</td>
-<td>1898</td>
+<td>1914</td>
 <td>div2/clkdiv_inst/CLKOUT</td>
 </tr>
 <tr>
@@ -1446,7 +1415,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>2.260</td>
 <td>tC2Q</td>
 <td>RF</td>
-<td>3</td>
+<td>21</td>
 <td>asgard1/cpu1/u0/IStatus_0_s15/DO[8]</td>
 </tr>
 <tr>
@@ -1462,7 +1431,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>0.453</td>
 <td>tINS</td>
 <td>FF</td>
-<td>34</td>
+<td>25</td>
 <td>asgard1/cpu1/u0/RegAddrC_1_s10/F</td>
 </tr>
 <tr>
@@ -1471,7 +1440,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s12/I2</td>
+<td>asgard1/cpu1/u0/A_i_6_s12/I2</td>
 </tr>
 <tr>
 <td>134.445</td>
@@ -1479,7 +1448,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tINS</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s12/F</td>
+<td>asgard1/cpu1/u0/A_i_6_s12/F</td>
 </tr>
 <tr>
 <td>134.919</td>
@@ -1487,7 +1456,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s11/I1</td>
+<td>asgard1/cpu1/u0/A_i_6_s11/I1</td>
 </tr>
 <tr>
 <td>135.474</td>
@@ -1495,7 +1464,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tINS</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s11/F</td>
+<td>asgard1/cpu1/u0/A_i_6_s11/F</td>
 </tr>
 <tr>
 <td>135.948</td>
@@ -1503,7 +1472,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s10/I0</td>
+<td>asgard1/cpu1/u0/A_i_6_s10/I0</td>
 </tr>
 <tr>
 <td>136.465</td>
@@ -1511,7 +1480,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tINS</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s10/F</td>
+<td>asgard1/cpu1/u0/A_i_6_s10/F</td>
 </tr>
 <tr>
 <td>136.939</td>
@@ -1519,15 +1488,15 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s9/I1</td>
+<td>asgard1/cpu1/u0/A_i_6_s9/I1</td>
 </tr>
 <tr>
 <td>137.494</td>
 <td>0.555</td>
 <td>tINS</td>
 <td>FF</td>
-<td>19</td>
-<td>asgard1/cpu1/u0/A_i_7_s9/F</td>
+<td>22</td>
+<td>asgard1/cpu1/u0/A_i_6_s9/F</td>
 </tr>
 <tr>
 <td>137.968</td>
@@ -1535,15 +1504,15 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/ppi_req_w_s6/I1</td>
+<td>asgard1/n405_s10/I1</td>
 </tr>
 <tr>
 <td>138.523</td>
 <td>0.555</td>
 <td>tINS</td>
 <td>FF</td>
-<td>1</td>
-<td>asgard1/ppi_req_w_s6/F</td>
+<td>2</td>
+<td>asgard1/n405_s10/F</td>
 </tr>
 <tr>
 <td>138.997</td>
@@ -1551,50 +1520,34 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/n403_s10/I3</td>
+<td>asgard1/n1110_s2/I2</td>
 </tr>
 <tr>
-<td>139.368</td>
-<td>0.371</td>
+<td>139.450</td>
+<td>0.453</td>
 <td>tINS</td>
 <td>FF</td>
-<td>3</td>
-<td>asgard1/n403_s10/F</td>
+<td>2</td>
+<td>asgard1/n1110_s2/F</td>
 </tr>
 <tr>
-<td>139.842</td>
+<td>139.924</td>
 <td>0.474</td>
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/vdp_csw_n_s3/I0</td>
+<td>asgard1/vdp_csw_n_s3/I2</td>
 </tr>
 <tr>
-<td>140.359</td>
-<td>0.517</td>
-<td>tINS</td>
-<td>FF</td>
-<td>1</td>
-<td>asgard1/vdp_csw_n_s3/F</td>
-</tr>
-<tr>
-<td>140.833</td>
-<td>0.474</td>
-<td>tNET</td>
-<td>FF</td>
-<td>1</td>
-<td>asgard1/vdp_csw_n_s2/I2</td>
-</tr>
-<tr>
-<td>141.286</td>
+<td>140.377</td>
 <td>0.453</td>
 <td>tINS</td>
 <td>FF</td>
 <td>4</td>
-<td>asgard1/vdp_csw_n_s2/F</td>
+<td>asgard1/vdp_csw_n_s3/F</td>
 </tr>
 <tr>
-<td>141.760</td>
+<td>140.851</td>
 <td>0.474</td>
 <td>tNET</td>
 <td>FF</td>
@@ -1602,7 +1555,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>asgard1/vdp4/n78_s2/I1</td>
 </tr>
 <tr>
-<td>142.315</td>
+<td>141.406</td>
 <td>0.555</td>
 <td>tINS</td>
 <td>FF</td>
@@ -1610,7 +1563,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>asgard1/vdp4/n78_s2/F</td>
 </tr>
 <tr>
-<td>142.789</td>
+<td>141.880</td>
 <td>0.474</td>
 <td>tNET</td>
 <td>FF</td>
@@ -1689,12 +1642,12 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 </tr>
 <tr>
 <td class="label">Logic Level:</td>
-<td>11</td>
+<td>10</td>
 </tr>
 <tr>
 <td class="label">Arrival Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.360, 100.000%</td></tr>
 <tr>
-<td class="label">Arrival Data Path Delay:</td><td> cell: 4.984, 40.006%; route: 5.214, 41.853%; tC2Q: 2.260, 18.141%</td></tr>
+<td class="label">Arrival Data Path Delay:</td><td> cell: 4.549, 39.389%; route: 4.740, 41.042%; tC2Q: 2.260, 19.569%</td></tr>
 <tr>
 <td class="label">Required Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.360, 100.000%</td></tr>
 </table>
@@ -1704,11 +1657,11 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <table class="summary_table">
 <tr>
 <td class="label">Slack</td>
-<td>-10.787</td>
+<td>-9.878</td>
 </tr>
 <tr>
 <td class="label">Data Arrival Time</td>
-<td>141.760</td>
+<td>140.851</td>
 </tr>
 <tr>
 <td class="label">Data Required Time</td>
@@ -1754,7 +1707,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>0.341</td>
 <td>tCL</td>
 <td>RR</td>
-<td>1898</td>
+<td>1914</td>
 <td>div2/clkdiv_inst/CLKOUT</td>
 </tr>
 <tr>
@@ -1770,7 +1723,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>2.260</td>
 <td>tC2Q</td>
 <td>RF</td>
-<td>3</td>
+<td>21</td>
 <td>asgard1/cpu1/u0/IStatus_0_s15/DO[8]</td>
 </tr>
 <tr>
@@ -1786,7 +1739,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>0.453</td>
 <td>tINS</td>
 <td>FF</td>
-<td>34</td>
+<td>25</td>
 <td>asgard1/cpu1/u0/RegAddrC_1_s10/F</td>
 </tr>
 <tr>
@@ -1795,7 +1748,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s12/I2</td>
+<td>asgard1/cpu1/u0/A_i_6_s12/I2</td>
 </tr>
 <tr>
 <td>134.445</td>
@@ -1803,7 +1756,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tINS</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s12/F</td>
+<td>asgard1/cpu1/u0/A_i_6_s12/F</td>
 </tr>
 <tr>
 <td>134.919</td>
@@ -1811,7 +1764,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s11/I1</td>
+<td>asgard1/cpu1/u0/A_i_6_s11/I1</td>
 </tr>
 <tr>
 <td>135.474</td>
@@ -1819,7 +1772,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tINS</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s11/F</td>
+<td>asgard1/cpu1/u0/A_i_6_s11/F</td>
 </tr>
 <tr>
 <td>135.948</td>
@@ -1827,7 +1780,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s10/I0</td>
+<td>asgard1/cpu1/u0/A_i_6_s10/I0</td>
 </tr>
 <tr>
 <td>136.465</td>
@@ -1835,7 +1788,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tINS</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s10/F</td>
+<td>asgard1/cpu1/u0/A_i_6_s10/F</td>
 </tr>
 <tr>
 <td>136.939</td>
@@ -1843,15 +1796,15 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s9/I1</td>
+<td>asgard1/cpu1/u0/A_i_6_s9/I1</td>
 </tr>
 <tr>
 <td>137.494</td>
 <td>0.555</td>
 <td>tINS</td>
 <td>FF</td>
-<td>19</td>
-<td>asgard1/cpu1/u0/A_i_7_s9/F</td>
+<td>22</td>
+<td>asgard1/cpu1/u0/A_i_6_s9/F</td>
 </tr>
 <tr>
 <td>137.968</td>
@@ -1859,15 +1812,15 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/ppi_req_w_s6/I1</td>
+<td>asgard1/n405_s10/I1</td>
 </tr>
 <tr>
 <td>138.523</td>
 <td>0.555</td>
 <td>tINS</td>
 <td>FF</td>
-<td>1</td>
-<td>asgard1/ppi_req_w_s6/F</td>
+<td>2</td>
+<td>asgard1/n405_s10/F</td>
 </tr>
 <tr>
 <td>138.997</td>
@@ -1875,50 +1828,34 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/n403_s10/I3</td>
+<td>asgard1/n1110_s2/I2</td>
 </tr>
 <tr>
-<td>139.368</td>
-<td>0.371</td>
+<td>139.450</td>
+<td>0.453</td>
 <td>tINS</td>
 <td>FF</td>
-<td>3</td>
-<td>asgard1/n403_s10/F</td>
+<td>2</td>
+<td>asgard1/n1110_s2/F</td>
 </tr>
 <tr>
-<td>139.842</td>
+<td>139.924</td>
 <td>0.474</td>
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/vdp_csw_n_s3/I0</td>
+<td>asgard1/vdp_csw_n_s3/I2</td>
 </tr>
 <tr>
-<td>140.359</td>
-<td>0.517</td>
-<td>tINS</td>
-<td>FF</td>
-<td>1</td>
-<td>asgard1/vdp_csw_n_s3/F</td>
-</tr>
-<tr>
-<td>140.833</td>
-<td>0.474</td>
-<td>tNET</td>
-<td>FF</td>
-<td>1</td>
-<td>asgard1/vdp_csw_n_s2/I2</td>
-</tr>
-<tr>
-<td>141.286</td>
+<td>140.377</td>
 <td>0.453</td>
 <td>tINS</td>
 <td>FF</td>
 <td>4</td>
-<td>asgard1/vdp_csw_n_s2/F</td>
+<td>asgard1/vdp_csw_n_s3/F</td>
 </tr>
 <tr>
-<td>141.760</td>
+<td>140.851</td>
 <td>0.474</td>
 <td>tNET</td>
 <td>FF</td>
@@ -1997,12 +1934,12 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 </tr>
 <tr>
 <td class="label">Logic Level:</td>
-<td>10</td>
+<td>9</td>
 </tr>
 <tr>
 <td class="label">Arrival Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.360, 100.000%</td></tr>
 <tr>
-<td class="label">Arrival Data Path Delay:</td><td> cell: 4.429, 38.752%; route: 4.740, 41.474%; tC2Q: 2.260, 19.774%</td></tr>
+<td class="label">Arrival Data Path Delay:</td><td> cell: 3.994, 37.966%; route: 4.266, 40.551%; tC2Q: 2.260, 21.483%</td></tr>
 <tr>
 <td class="label">Required Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.360, 100.000%</td></tr>
 </table>
@@ -2012,11 +1949,11 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <table class="summary_table">
 <tr>
 <td class="label">Slack</td>
-<td>-10.723</td>
+<td>-9.796</td>
 </tr>
 <tr>
 <td class="label">Data Arrival Time</td>
-<td>141.696</td>
+<td>140.769</td>
 </tr>
 <tr>
 <td class="label">Data Required Time</td>
@@ -2062,7 +1999,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>0.341</td>
 <td>tCL</td>
 <td>RR</td>
-<td>1898</td>
+<td>1914</td>
 <td>div2/clkdiv_inst/CLKOUT</td>
 </tr>
 <tr>
@@ -2078,7 +2015,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>2.260</td>
 <td>tC2Q</td>
 <td>RF</td>
-<td>3</td>
+<td>21</td>
 <td>asgard1/cpu1/u0/IStatus_0_s15/DO[8]</td>
 </tr>
 <tr>
@@ -2094,7 +2031,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>0.453</td>
 <td>tINS</td>
 <td>FF</td>
-<td>34</td>
+<td>25</td>
 <td>asgard1/cpu1/u0/RegAddrC_1_s10/F</td>
 </tr>
 <tr>
@@ -2103,7 +2040,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s12/I2</td>
+<td>asgard1/cpu1/u0/A_i_6_s12/I2</td>
 </tr>
 <tr>
 <td>134.445</td>
@@ -2111,7 +2048,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tINS</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s12/F</td>
+<td>asgard1/cpu1/u0/A_i_6_s12/F</td>
 </tr>
 <tr>
 <td>134.919</td>
@@ -2119,7 +2056,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s11/I1</td>
+<td>asgard1/cpu1/u0/A_i_6_s11/I1</td>
 </tr>
 <tr>
 <td>135.474</td>
@@ -2127,7 +2064,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tINS</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s11/F</td>
+<td>asgard1/cpu1/u0/A_i_6_s11/F</td>
 </tr>
 <tr>
 <td>135.948</td>
@@ -2135,7 +2072,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s10/I0</td>
+<td>asgard1/cpu1/u0/A_i_6_s10/I0</td>
 </tr>
 <tr>
 <td>136.465</td>
@@ -2143,7 +2080,7 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tINS</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s10/F</td>
+<td>asgard1/cpu1/u0/A_i_6_s10/F</td>
 </tr>
 <tr>
 <td>136.939</td>
@@ -2151,15 +2088,15 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/cpu1/u0/A_i_7_s9/I1</td>
+<td>asgard1/cpu1/u0/A_i_6_s9/I1</td>
 </tr>
 <tr>
 <td>137.494</td>
 <td>0.555</td>
 <td>tINS</td>
 <td>FF</td>
-<td>19</td>
-<td>asgard1/cpu1/u0/A_i_7_s9/F</td>
+<td>22</td>
+<td>asgard1/cpu1/u0/A_i_6_s9/F</td>
 </tr>
 <tr>
 <td>137.968</td>
@@ -2167,15 +2104,15 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/ppi_req_w_s6/I1</td>
+<td>asgard1/n405_s10/I1</td>
 </tr>
 <tr>
 <td>138.523</td>
 <td>0.555</td>
 <td>tINS</td>
 <td>FF</td>
-<td>1</td>
-<td>asgard1/ppi_req_w_s6/F</td>
+<td>2</td>
+<td>asgard1/n405_s10/F</td>
 </tr>
 <tr>
 <td>138.997</td>
@@ -2183,15 +2120,15 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/n403_s10/I3</td>
+<td>asgard1/n405_s3/I3</td>
 </tr>
 <tr>
 <td>139.368</td>
 <td>0.371</td>
 <td>tINS</td>
 <td>FF</td>
-<td>3</td>
-<td>asgard1/n403_s10/F</td>
+<td>15</td>
+<td>asgard1/n405_s3/F</td>
 </tr>
 <tr>
 <td>139.842</td>
@@ -2199,34 +2136,18 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>asgard1/n403_s48/I2</td>
+<td>asgard1/vdp_csr_n_s3/I2</td>
 </tr>
 <tr>
 <td>140.295</td>
 <td>0.453</td>
 <td>tINS</td>
 <td>FF</td>
-<td>15</td>
-<td>asgard1/n403_s48/F</td>
+<td>3</td>
+<td>asgard1/vdp_csr_n_s3/F</td>
 </tr>
 <tr>
 <td>140.769</td>
-<td>0.474</td>
-<td>tNET</td>
-<td>FF</td>
-<td>1</td>
-<td>asgard1/vdp_csr_n_s2/I2</td>
-</tr>
-<tr>
-<td>141.222</td>
-<td>0.453</td>
-<td>tINS</td>
-<td>FF</td>
-<td>3</td>
-<td>asgard1/vdp_csr_n_s2/F</td>
-</tr>
-<tr>
-<td>141.696</td>
 <td>0.474</td>
 <td>tNET</td>
 <td>FF</td>
@@ -2305,12 +2226,12 @@ D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\wifi_lite.vhd<br
 </tr>
 <tr>
 <td class="label">Logic Level:</td>
-<td>10</td>
+<td>9</td>
 </tr>
 <tr>
 <td class="label">Arrival Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.360, 100.000%</td></tr>
 <tr>
-<td class="label">Arrival Data Path Delay:</td><td> cell: 4.365, 38.407%; route: 4.740, 41.707%; tC2Q: 2.260, 19.886%</td></tr>
+<td class="label">Arrival Data Path Delay:</td><td> cell: 3.912, 37.478%; route: 4.266, 40.870%; tC2Q: 2.260, 21.652%</td></tr>
 <tr>
 <td class="label">Required Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.360, 100.000%</td></tr>
 </table>

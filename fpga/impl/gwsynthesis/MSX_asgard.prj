@@ -73,6 +73,7 @@
         <File path="D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\impulse.v" type="verilog"/>
         <File path="D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\lpf_butter4_8k.v" type="verilog"/>
         <File path="D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\megaram.v" type="verilog"/>
+        <File path="D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\is_msx2.v" type="verilog"/>
         <File path="D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\memory.v" type="verilog"/>
         <File path="D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\kanji.v" type="verilog"/>
         <File path="D:\datos\proyectos\43_Tang_Nano_20k\149_MSXasgard_tn20k\src\ocm\rtc.v" type="verilog"/>

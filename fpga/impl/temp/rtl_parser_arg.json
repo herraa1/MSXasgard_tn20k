@@ -278,6 +278,10 @@
    "Type" : "verilog"
   },
   {
+   "Path" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/is_msx2.v",
+   "Type" : "verilog"
+  },
+  {
    "Path" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/memory.v",
    "Type" : "verilog"
   },

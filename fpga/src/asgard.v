@@ -5,6 +5,7 @@
 `define ENABLE_CONFIG
 //`define ENABLE_WIFI //fase 1.1: fuera en la version cartucho (pines 77/79 ocupados por el bus)
 //`define ENABLE_CUSTOM_ROM //16kb slot 0-3, bank 1
+`define ENABLE_IS_MSX2 //corta el espejo del vdp en cuanto se detecta anfitrion MSX2+, antes de su rutina de logo
 
 module asgard
 #(
@@ -725,29 +726,29 @@ end
     assign vdp_int_csr_n = ( (bus_addr[7:3] == 5'b10011 ) && bus_iorq_n == 0 && bus_m1_n == 1 && bus_rd_n == 0)? 0:1; // I/O:98-9Fh   / VDP (V9938/V9958/V9968: 9Ch = int flags)
     assign vdp_req = ~(vdp_int_csw_n & vdp_int_csr_n);
 
-    //----------------------------------------------------------------
-    //-- De quien es el V9958 en cada momento
-    //----------------------------------------------------------------
-    // Mientras el MSX2+ esta retenido en reset, el V9958 sigue el bus del
-    // ANFITRION: asi el HDMI muestra el arranque del anfitrion y el aviso del
-    // proxy desde el primer momento, en vez de estar en negro hasta que acaba
-    // el volcado de la flash y llega host_ready. Cuando la CPU arranca, el VDP
-    // pasa a ser suyo.
-    //
-    // El anfitrion NUNCA lee de este VDP (cdi solo va al MSX2+), asi que es un
-    // espejo de escritura y no hay contencion con su VDP real.
-    // msx2p_running se declara arriba, junto a la instancia de xchg_regs.
+`ifdef ENABLE_IS_MSX2
+    wire host_is_msx2;
+    is_msx2 is_msx2_1 (
+        .clk            (clk_54m),
+        .reset_n        (bus_reset_n),
+        .vdp_host_mode  (vdp_host_mode),
+        .vdp_host_csw_n (vdp_host_csw_n),
+        .vdp_host_csr_n (vdp_host_csr_n),
+        .vdp_host_din   (vdp_host_din),
+        .detected       (host_is_msx2)
+    );
+`else
+    wire host_is_msx2;
+    assign host_is_msx2 = 1'b0;
+`endif
 
-    // La conmutacion solo se hace con las CUATRO senales en reposo. Si cayera a
-    // mitad de un acceso se truncaria o duplicaria un ciclo del VDP y podria
-    // corromper un registro. Mismo patron que safe_to_switch_clk para el turbo.
     reg vdp_owner_msx2p;
     always @ (posedge clk_54m) begin
         if (bus_reset_n == 0)
             vdp_owner_msx2p <= 1'b0;
         else if (vdp_int_csw_n == 1 && vdp_int_csr_n == 1 &&
                  vdp_host_csw_n == 1 && vdp_host_csr_n == 1)
-            vdp_owner_msx2p <= msx2p_running;
+            vdp_owner_msx2p <= (msx2p_running | host_is_msx2);
     end
 
     wire [2:0] vdp_mode_sel;
@@ -1251,14 +1252,17 @@ memory_ctrl mem1 (
 `endif
 
     //kanji data
-    wire kanji_data_req_r;
-    wire kanji_data_req_w;
+    reg  kanji_data_req_r;
+    reg  kanji_data_req_w;
     wire kanji_data_req;
     wire kanji_data_ram_req;
     //reg [7:0] kanji_data_dout;
     wire [17:0] kanji_data_ram_addr;
-    assign kanji_data_req_w = (bus_addr[7:2] == 6'b110110 && bus_iorq_n == 0 && bus_m1_n == 1 && bus_wr_n == 0)? 1 : 0; // I/O:B4-B5h   / I/O:D8-DBh / Kanji-data
-    assign kanji_data_req_r = (bus_addr[7:2] == 6'b110110 && bus_iorq_n == 0 && bus_m1_n == 1 && bus_rd_n == 0)? 1 : 0; // I/O:B4-B5h   / I/O:D8-DBh / Kanji-data
+
+    always @ (posedge clk_54m) begin
+        kanji_data_req_w <= (bus_addr[7:2] == 6'b110110 && bus_iorq_n == 0 && bus_m1_n == 1 && bus_wr_n == 0)? 1 : 0; // I/O:D8-DBh / Kanji-data
+        kanji_data_req_r <= (bus_addr[7:2] == 6'b110110 && bus_iorq_n == 0 && bus_m1_n == 1 && bus_rd_n == 0)? 1 : 0; // I/O:D8-DBh / Kanji-data
+    end
     assign kanji_data_req = kanji_data_req_w | kanji_data_req_r;
 
     kanji kanji1(

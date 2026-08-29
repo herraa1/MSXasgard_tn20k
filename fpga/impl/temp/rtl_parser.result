@@ -810,12 +810,12 @@
     "InstLine" : 157,
     "InstName" : "asgard1",
     "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-    "ModuleLine" : 9,
+    "ModuleLine" : 10,
     "ModuleName" : "asgard",
     "SubInsts" : [
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 100,
+      "InstLine" : 101,
       "InstName" : "cpuclkd",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/wondertang/clockdiv.v",
       "ModuleLine" : 24,
@@ -823,7 +823,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 363,
+      "InstLine" : 364,
       "InstName" : "cpu1",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/G80A/g80a.vhd",
       "ModuleLine" : 69,
@@ -867,7 +867,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 479,
+      "InstLine" : 480,
       "InstName" : "xchg1",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/xchg_regs.v",
       "ModuleLine" : 30,
@@ -875,7 +875,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 623,
+      "InstLine" : 624,
       "InstName" : "ram1",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/ram8k.v",
       "ModuleLine" : 1,
@@ -883,7 +883,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 637,
+      "InstLine" : 638,
       "InstName" : "bm1",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/bios_missing.v",
       "ModuleLine" : 14,
@@ -891,7 +891,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 691,
+      "InstLine" : 692,
       "InstName" : "rtc1",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/ocm/rtc.v",
       "ModuleLine" : 53,
@@ -909,7 +909,15 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 760,
+      "InstLine" : 731,
+      "InstName" : "is_msx2_1",
+      "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/is_msx2.v",
+      "ModuleLine" : 38,
+      "ModuleName" : "is_msx2"
+     },
+     {
+      "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
+      "InstLine" : 761,
       "InstName" : "vdp4",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/vdp/vdp_top.v",
       "ModuleLine" : 3,
@@ -1365,7 +1373,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 961,
+      "InstLine" : 962,
       "InstName" : "mem1",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/memory.v",
       "ModuleLine" : 2,
@@ -1373,7 +1381,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 1046,
+      "InstLine" : 1047,
       "InstName" : "psg1",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/PSG_YM2149/YM2149.vhdl",
       "ModuleLine" : 62,
@@ -1381,7 +1389,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 1093,
+      "InstLine" : 1094,
       "InstName" : "opll",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/ikaopll/opll_ikaopll.v",
       "ModuleLine" : 24,
@@ -1681,7 +1689,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 1151,
+      "InstLine" : 1152,
       "InstName" : "SccCh",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/ocm/scc_wave2.vhd",
       "ModuleLine" : 79,
@@ -1707,7 +1715,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 1185,
+      "InstLine" : 1186,
       "InstName" : "megaram1",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/megaram.v",
       "ModuleLine" : 1,
@@ -1715,7 +1723,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 1231,
+      "InstLine" : 1232,
       "InstName" : "filter2",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/lpf_butter4_8k.v",
       "ModuleLine" : 1,
@@ -1741,7 +1749,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 1264,
+      "InstLine" : 1268,
       "InstName" : "kanji1",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/ocm/kanji.v",
       "ModuleLine" : 43,
@@ -1749,7 +1757,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 1398,
+      "InstLine" : 1402,
       "InstName" : "mono",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/monostable/monostable.vhd",
       "ModuleLine" : 7,
@@ -1757,7 +1765,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 1512,
+      "InstLine" : 1516,
       "InstName" : "flash1",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/flash_rw.v",
       "ModuleLine" : 1,
@@ -1765,7 +1773,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 1764,
+      "InstLine" : 1768,
       "InstName" : "dpram1",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/wondertang/dpram.v",
       "ModuleLine" : 1,
@@ -1773,7 +1781,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 1783,
+      "InstLine" : 1787,
       "InstName" : "sd1",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/wondertang/sd_reader.sv",
       "ModuleLine" : 11,
@@ -1799,7 +1807,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 1916,
+      "InstLine" : 1920,
       "InstName" : "ocm_ports",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/ocm/swioports.vhd",
       "ModuleLine" : 38,
@@ -1807,7 +1815,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 1937,
+      "InstLine" : 1941,
       "InstName" : "mono2",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/monostable/monostable.vhd",
       "ModuleLine" : 7,
@@ -1815,7 +1823,7 @@
      },
      {
       "InstFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/src/asgard.v",
-      "InstLine" : 1958,
+      "InstLine" : 1962,
       "InstName" : "debug1",
       "ModuleFile" : "D:/datos/proyectos/43_Tang_Nano_20k/149_MSXasgard_tn20k/msx_debug/timing_debug.v",
       "ModuleLine" : 2,

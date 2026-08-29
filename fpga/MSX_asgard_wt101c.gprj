@@ -74,6 +74,7 @@
         <File path="src/impulse.v" type="file.verilog" enable="1"/>
         <File path="src/lpf_butter4_8k.v" type="file.verilog" enable="1"/>
         <File path="src/megaram.v" type="file.verilog" enable="1"/>
+        <File path="src/is_msx2.v" type="file.verilog" enable="1"/>
         <File path="src/memory.v" type="file.verilog" enable="1"/>
         <File path="src/ocm/kanji.v" type="file.verilog" enable="1"/>
         <File path="src/ocm/rtc.v" type="file.verilog" enable="1"/>
