@@ -5,6 +5,8 @@
     <Version>5</Version>
     <Device name="GW2AR-18C" pn="GW2AR-LV18QN88C8/I7">gw2ar18c-000</Device>
     <FileList>
+        <File path="board/board_id.v" type="file.verilog" enable="1"/>
+        <File path="board/config_wt101c.v" type="file.verilog" enable="1"/>
         <File path="ikaopll/IKAOPLL.v" type="file.verilog" enable="1"/>
         <File path="ikaopll/IKAOPLL_dac.v" type="file.verilog" enable="1"/>
         <File path="ikaopll/IKAOPLL_eg.v" type="file.verilog" enable="1"/>
@@ -90,7 +92,7 @@
         <File path="src/wondertang/sd_reader.sv" type="file.verilog" enable="1"/>
         <File path="src/wondertang/sdcmd_ctrl.sv" type="file.verilog" enable="1"/>
         <File path="src/xchg_regs.v" type="file.verilog" enable="1"/>
-        <File path="top_wt101c.v" type="file.verilog" enable="1"/>
+        <File path="top_wt10x.v" type="file.verilog" enable="1"/>
         <File path="vdp/ram.v" type="file.verilog" enable="1"/>
         <File path="vdp/vdp.v" type="file.verilog" enable="1"/>
         <File path="vdp/vdp_colordec.v" type="file.verilog" enable="1"/>
@@ -130,8 +132,8 @@
         <File path="src/ocm/swioports.vhd" type="file.vhdl" enable="1"/>
         <File path="src/ocm/uart_lite.vhd" type="file.vhdl" enable="1"/>
         <File path="src/ocm/wifi_lite.vhd" type="file.vhdl" enable="1"/>
-        <File path="msx_asgard_wt101c.cst" type="file.cst" enable="1"/>
-        <File path="MSX_asgard_wt101c.sdc" type="file.sdc" enable="1"/>
-        <File path="src/MSX_asgard_wt101c.rao" type="file.gao" enable="0"/>
+        <File path="msx_asgard_wt10x.cst" type="file.cst" enable="1"/>
+        <File path="MSX_asgard_wtall.sdc" type="file.sdc" enable="1"/>
+        <File path="src/MSX_asgard_wt10x.rao" type="file.gao" enable="0"/>
     </FileList>
 </Project>

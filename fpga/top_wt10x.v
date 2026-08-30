@@ -63,6 +63,17 @@ module top
     output wire [3:0] O_sdram_dqm
 );
 
+    assign wait_out = 1'b0;
+    if(CONFIG_BOARD::BOARD_ID == BOARD_ID::WonderTANG_101c) begin
+        assign int_out = 1'b1;
+    end
+    else begin
+        assign int_out = 1'b0;
+    end
+    assign busdir_n = 1'b1;
+    assign sound    = 1'b0;
+    assign audio    = 1'b0;
+
     //clocks
     wire clk_108m;
     wire clk_108m_n;
@@ -87,12 +98,6 @@ module top
         .hclkin(clk_108m),
         .resetn(1)
     );
-
-    assign wait_out = 1'b0;
-    assign int_out  = 1'b1;
-    assign busdir_n = 1'b1;
-    assign sound    = 1'b0;
-    assign audio    = 1'b0;
 
     wire [15:0] bus_addr;
     wire        bus_mreq_n;
