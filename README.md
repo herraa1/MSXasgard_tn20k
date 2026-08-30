@@ -25,6 +25,9 @@ FPGA in board contains:
 Supported boards are [MSXhdmi_tn20k](https://github.com/jabadiagm/MSXhdmi_tn20k) and [Wondertang 1.01c](https://github.com/lfantoniosi/WonderTANG).
 Firmwares for the Wondertang 1.02d and 2.00b are also provided.
 
+> [!IMPORTANT]
+> DO NOT ask @jabadiagm for support related to Wondertang 1.02d and 2.00b boards.
+
 
 ## Slot map
 
