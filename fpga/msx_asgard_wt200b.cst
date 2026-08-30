@@ -1,9 +1,9 @@
 // ===========================================================================
-// msx_asgard_wt101c.cst
-// Pinout para la placa WonderTANG 101c (version B del proyecto).
+// msx_asgard_wt200b.cst
+// Pinout para la placa WonderTANG 200b (version B del proyecto).
 //
 // Se conservan los NOMBRES DE SEÑAL de la WonderTANG en los pines; la
-// traduccion a los nombres del proyecto se hace dentro de top_wt101c.v, a la
+// traduccion a los nombres del proyecto se hace dentro de top_wt200b.v, a la
 // salida del mp_debouncer.
 //
 // Diferencia principal con la placa propia: aqui las 16 lineas de direccion y
