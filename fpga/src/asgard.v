@@ -59,6 +59,8 @@ module asgard
     input wire uart_rx,
 `endif 
 
+    output wire led,
+
     //usb uart
     output wire usb_uart_tx,
 
@@ -1817,8 +1819,9 @@ memory_ctrl mem1 (
     // el bus de direcciones del cartucho. En modo SD de 1 bit la tarjeta no las
     // conduce y la placa lleva pullups, asi que basta con eso.
     assign sd_dat3 = 1; // hay que mantener DAT3 a 1 para que la tarjeta no entre en modo SPI
-    
-    
+
+    assign led = sd_busy_w;
+
     always @(posedge clk_54m) begin
         if (~bus_reset_n) begin
             ff_sd_en <= 0;

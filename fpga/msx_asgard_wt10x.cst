@@ -139,6 +139,10 @@ IO_PORT "tmds_data_p[2]" PULL_MODE=NONE DRIVE=4;
 IO_LOC "tmds_clk_p" 33,34;
 IO_PORT "tmds_clk_p" PULL_MODE=NONE DRIVE=4;
 
+// access LED
+IO_LOC "led" 86;
+IO_PORT "led" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+
 // --- wifi: pines reservados, ENABLE_WIFI sigue comentado --------------------
 // El 79 que usabamos en la placa propia aqui es cd[3]. El 86 es el LED de la
 // placa y esta accesible en cabecera: el LED parpadeara con el trafico.

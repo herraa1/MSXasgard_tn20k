@@ -43,6 +43,8 @@ module top
     inout  wire sd_dat0,     // MISO
     output wire sd_dat3,     // 1
 
+    output wire led,
+
 `ifdef ENABLE_WIFI
     output wire uart_tx,
     input wire uart_rx,
@@ -225,6 +227,8 @@ asgard
     .sd_cmd (sd_cmd),      // MOSI
     .sd_dat0 (sd_dat0),     // MISO
     .sd_dat3 (sd_dat3),     // 1
+
+    .led (led),
 
 `ifdef ENABLE_WIFI
     .uart_tx (uart_tx),

@@ -49,6 +49,8 @@ module top
 
     output wire usb_uart_tx,
 
+    output wire led,
+
     // Magic ports for SDRAM to be inferred
     output wire O_sdram_clk,
     output wire O_sdram_cke,
@@ -218,6 +220,8 @@ asgard
     .sd_cmd (sd_cmd),      // MOSI
     .sd_dat0 (sd_dat0),     // MISO
     .sd_dat3 (sd_dat3),     // 1
+
+    .led (led),
 
 `ifdef ENABLE_WIFI
     .uart_tx (uart_tx),
