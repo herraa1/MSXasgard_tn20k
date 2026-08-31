@@ -1,493 +1,493 @@
 GowinSynthesis start
 Running parser ...
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/board/board_id.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/board/config_wt101c.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_dac.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_eg.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_lfo.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_op.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_pg.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_primitives.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_reg.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_timinggen.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/opll_ikaopll.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jt2413.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl2.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_acc.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_csr.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_div.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_eg.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_eg_cnt.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_eg_comb.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_eg_ctrl.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_eg_final.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_eg_pure.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_eg_step.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_exprom.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_lfo.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_logsin.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_mmr.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_noise.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_op.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_pg.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_pg_comb.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_pg_inc.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_pg_rhy.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_pg_sum.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_pm.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_reg.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_reg_ch.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_sh.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_sh_rst.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_single_acc.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_slot_cnt.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopl_timers.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopll_mmr.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopll_reg.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/jtopl/jtopll_reg_ch.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/msx_debug/msx2p_debug.v'
-Analyzing included file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/msx_debug/print.v'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/msx_debug/msx2p_debug.v":297)
-Back to file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/msx_debug/msx2p_debug.v'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/msx_debug/msx2p_debug.v":297)
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/msx_debug/timing_debug.v'
-Analyzing included file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/msx_debug/print.v'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/msx_debug/timing_debug.v":146)
-Back to file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/msx_debug/timing_debug.v'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/msx_debug/timing_debug.v":146)
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/msx_debug/uart_tx.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/pulse_min_max/pulse_max.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/pulse_min_max/pulse_min.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v'
-Undeclared symbol 'reset1_n', assumed default net type 'wire'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":240)
-Undeclared symbol 'reset2_n', assumed default net type 'wire'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":241)
-Undeclared symbol 'flash_idle', assumed default net type 'wire'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":367)
-Undeclared symbol 'host_ready', assumed default net type 'wire'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":367)
-WARN  (EX3638) : 'host_ready' is already implicitly declared on line 367("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":457)
-Undeclared symbol 'config_enable_scanlines', assumed default net type 'wire'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":787)
-WARN  (EX3638) : 'config_enable_scanlines' is already implicitly declared on line 787("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1327)
-WARN  (EX3638) : 'flash_idle' is already implicitly declared on line 367("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1549)
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/bios_missing.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/flash_rw.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/gowin/clk_108p.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/gowin/clk_135.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/gowin_clkdiv/gowin_clkdiv.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/audio_clock_regeneration_packet.sv'
-WARN  (EX2478) : Non-net output port 'clk_audio_counter_wrap' cannot be initialized at declaration in SystemVerilog mode("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/audio_clock_regeneration_packet.sv":13)
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/audio_info_frame.sv'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/audio_sample_packet.sv'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/auxiliary_video_information_info_frame.sv'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/hdmi.sv'
-WARN  (EX3628) : Redeclaration of ANSI port 'tmds_internal' is not allowed("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/hdmi.sv":363)
-WARN  (EX2478) : Non-net output port 'cx' cannot be initialized at declaration in SystemVerilog mode("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/hdmi.sv":82)
-WARN  (EX2478) : Non-net output port 'cy' cannot be initialized at declaration in SystemVerilog mode("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/hdmi.sv":83)
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/packet_assembler.sv'
-WARN  (EX2478) : Non-net output port 'counter' cannot be initialized at declaration in SystemVerilog mode("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/packet_assembler.sv":11)
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/packet_picker.sv'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/serializer.sv'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/source_product_description_info_frame.sv'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/tmds_channel.sv'
-WARN  (EX2478) : Non-net output port 'tmds' cannot be initialized at declaration in SystemVerilog mode("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/tmds_channel.sv":16)
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/impulse.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/lpf_butter4_8k.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/megaram.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/is_msx2.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/memory.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/kanji.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/rtc.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ram8k.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/slave_bus.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/slave_rom.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/svf_biquad.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/clockdiv.v'
-WARN  (EX2208) : Illegal integral type argument in math function 'pow()', expected real type("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/clockdiv.v":38)
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/crc16.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/dpram.v'
-WARN  (EX2208) : Illegal integral type argument in math function 'pow()', expected real type("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/dpram.v":21)
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/mp_debouncer.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/pinfilter.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/sd_reader.sv'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/sdcmd_ctrl.sv'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/xchg_regs.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/top_wt10x.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/ram.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp.v'
-Analyzing included file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_config.vh'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp.v":15)
-Back to file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp.v'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp.v":15)
-Analyzing included file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_package.vh'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp.v":75)
-Back to file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp.v'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp.v":75)
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_colordec.v'
-Analyzing included file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_config.vh'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_colordec.v":12)
-Back to file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_colordec.v'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_colordec.v":12)
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_command.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_command_cache.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_doublebuf.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_graphic123m.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_graphic4567.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_hvcounter.v'
-Analyzing included file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_package.vh'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_hvcounter.v":36)
-Back to file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_hvcounter.v'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_hvcounter.v":36)
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_interrupt.v'
-Analyzing included file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_package.vh'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_interrupt.v":31)
-Back to file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_interrupt.v'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_interrupt.v":31)
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_linebuf.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_ntsc_pal.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_register.v'
-Analyzing included file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_config.vh'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_register.v":10)
-Back to file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_register.v'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_register.v":10)
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_spinforam.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_sprite.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_sprite_m3.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_ssg.v'
-Analyzing included file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_package.vh'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_ssg.v":54)
-Back to file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_ssg.v'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_ssg.v":54)
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_text12.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_top.v'
-Undeclared symbol 'clk_108m', assumed default net type 'wire'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_top.v":71)
-Undeclared symbol 'clk_108m_n', assumed default net type 'wire'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_top.v":72)
-Undeclared symbol 'rst_n', assumed default net type 'wire'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_top.v":138)
-Undeclared symbol 'clk_135', assumed default net type 'wire'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_top.v":143)
-Undeclared symbol 'cpuclk_w', assumed default net type 'wire'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_top.v":370)
-Undeclared symbol 'clk_audio_w', assumed default net type 'wire'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_top.v":437)
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_vga.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_wait_control.v'
-Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vencode.v'
-Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/t80_pack.vhd'
-Analyzing package 't80_pack'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/t80_pack.vhd":58)
-Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/T80s.vhd'
-Analyzing entity 't80s'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/T80s.vhd":73)
-Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/T80s.vhd":102)
-Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/g80a.vhd'
-Analyzing entity 'g80a'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/g80a.vhd":69)
-Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/g80a.vhd":99)
-Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/t80.vhd'
-Analyzing entity 't80'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/t80.vhd":73)
-Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/t80.vhd":114)
-Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/t80_alu.vhd'
-Analyzing entity 't80_alu'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/t80_alu.vhd":65)
-Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/t80_alu.vhd":92)
-Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/t80_mcode.vhd'
-Analyzing entity 't80_mcode'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/t80_mcode.vhd":71)
-Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/t80_mcode.vhd":143)
-Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/t80_reg.vhd'
-Analyzing entity 't80_reg'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/t80_reg.vhd":61)
-Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/t80_reg.vhd":81)
-Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl'
-Analyzing entity 'ym2149'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl":62)
-Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl":94)
-Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/denoise/denoise.vhd'
-Analyzing entity 'denoise'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/denoise/denoise.vhd":5)
-Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/denoise/denoise.vhd":15)
-Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/monostable/monostable.vhd'
-Analyzing entity 'monostable'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/monostable/monostable.vhd":7)
-Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/monostable/monostable.vhd":18)
-Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/gowin_clkdiv2/gowin_clkdiv2.vhd'
-Analyzing entity 'gowin_clkdiv2'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/gowin_clkdiv2/gowin_clkdiv2.vhd":13)
-Analyzing architecture 'behavioral'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/gowin_clkdiv2/gowin_clkdiv2.vhd":21)
-Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/fifo.vhd'
-Analyzing entity 'fifo'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/fifo.vhd":53)
-Analyzing architecture 'behavioral'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/fifo.vhd":78)
-Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/lpf.vhd'
-Analyzing entity 'lpf1'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/lpf.vhd":39)
-Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/lpf.vhd":52)
-Analyzing entity 'lpf2'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/lpf.vhd":102)
-Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/lpf.vhd":115)
-Analyzing entity 'interpo_mul'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/lpf.vhd":183)
-Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/lpf.vhd":194)
-Analyzing entity 'interpo'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/lpf.vhd":206)
-Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/lpf.vhd":219)
-Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/scc_wave2.vhd'
-Analyzing entity 'scc_wave_mul'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/scc_wave2.vhd":39)
-Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/scc_wave2.vhd":47)
-Analyzing entity 'scc_mix_mul'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/scc_wave2.vhd":59)
-Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/scc_wave2.vhd":67)
-Analyzing entity 'scc_wave2'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/scc_wave2.vhd":79)
-Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/scc_wave2.vhd":94)
-Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/swioports.vhd'
-WARN  (EX4760) : 'vdp_package' is not compiled in library 'work'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/swioports.vhd":36)
-Analyzing entity 'switched_io_ports'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/swioports.vhd":38)
-Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/swioports.vhd":125)
-Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/uart_lite.vhd'
-Analyzing entity 'uart'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/uart_lite.vhd":43)
-Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/uart_lite.vhd":58)
-Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/wifi_lite.vhd'
-Analyzing entity 'wifi'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/wifi_lite.vhd":97)
-Analyzing architecture 'behavior'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/wifi_lite.vhd":113)
-Compiling module 'top'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/top_wt10x.v":3)
-Compiling module 'CLK_108P'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/gowin/clk_108p.v":10)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'reset'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/top_wt10x.v":84)
-Switching to VHDL mode to elaborate design unit 'Gowin_CLKDIV2'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/top_wt10x.v":93)
-Processing 'Gowin_CLKDIV2(Behavioral)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/gowin_clkdiv2/gowin_clkdiv2.vhd":13)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'resetn'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/top_wt10x.v":92)
-Returning to Verilog mode to proceed with elaboration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/top_wt10x.v":93)
-Compiling module 'Gowin_CLKDIV'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/gowin_clkdiv/gowin_clkdiv.v":10)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'resetn'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/top_wt10x.v":99)
-Compiling module 'mp_debouncer'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/mp_debouncer.v":1)
-Compiling module 'slave_bus(DIR_DELAY=4'd2)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/slave_bus.v":26)
-Compiling module 'slave_rom'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/slave_rom.v":19)
-Extracting RAM for identifier 'mem_r'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/slave_rom.v":25)
-WARN  (EX3073) : Port 'io41_id212_n' remains unconnected for this instance("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1932)
-Compiling module 'asgard'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":10)
-WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":91)
-WARN  (EX2208) : Illegal integral type argument in math function 'pow()', expected real type("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/clockdiv.v":38)
-Compiling module 'CLOCK_DIV(CLK_SRC=54.0,CLK_DIV=3.58)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/clockdiv.v":24)
-WARN  (EX3791) : Expression size 64 truncated to fit in target size 32("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/clockdiv.v":35)
-WARN  (EX3791) : Expression size 64 truncated to fit in target size 32("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/clockdiv.v":36)
-WARN  (EX3791) : Expression size 64 truncated to fit in target size 32("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/clockdiv.v":38)
-WARN  (EX3791) : Expression size 18 truncated to fit in target size 17("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/clockdiv.v":54)
-WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/clockdiv.v":57)
-WARN  (EX3791) : Expression size 22 truncated to fit in target size 21("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":205)
-Switching to VHDL mode to elaborate design unit 'G80a'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":388)
-Processing 'G80a(rtl)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/g80a.vhd":69)
-Processing 'T80(iowait=1)(rtl)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/t80.vhd":73)
-Processing 'T80_MCode(rtl)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/t80_mcode.vhd":71)
-Processing 'T80_ALU(rtl)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/t80_alu.vhd":65)
-Processing 'T80_Reg(rtl)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/t80_reg.vhd":61)
-Extracting RAM for identifier 'RegsH'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/t80_reg.vhd":84)
-Extracting RAM for identifier 'RegsL'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/G80A/t80_reg.vhd":85)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'NMI_n'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":373)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'BUSRQ_n'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":374)
-Returning to Verilog mode to proceed with elaboration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":388)
-Compiling module 'xchg_regs'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/xchg_regs.v":30)
-Extracting RAM for identifier 'keys'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/xchg_regs.v":54)
-Compiling module 'ram8k'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ram8k.v":1)
-Extracting RAM for identifier 'mem_r'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ram8k.v":9)
-Compiling module 'bios_missing'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/bios_missing.v":14)
-Extracting RAM for identifier 'mem_r'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/bios_missing.v":20)
-Compiling module 'rtc'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/rtc.v":53)
-Compiling module 'ram'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/ram.v":14)
-Extracting RAM for identifier 'blkram'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/ram.v":21)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'reset'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":694)
-Compiling module 'is_msx2'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/is_msx2.v":38)
-WARN  (EX3073) : Port 'frame_width' remains unconnected for this instance("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_top.v":479)
-WARN  (EX3073) : Port 'frame_width' remains unconnected for this instance("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_top.v":505)
-WARN  (EX3073) : Port 'tmds_clock' remains unconnected for this instance("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_top.v":516)
-Compiling module 'vdp_top'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_top.v":3)
-Compiling module 'CLK_135'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/gowin/clk_135.v":10)
-Compiling module 'VDP'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp.v":17)
-Compiling module 'VDP_NTSC_PAL'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_ntsc_pal.v":12)
-Compiling module 'VDP_VGA'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_vga.v":13)
-Compiling module 'VDP_DOUBLEBUF'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_doublebuf.v":22)
-Compiling module 'VDP_LINEBUF'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_linebuf.v":11)
-Extracting RAM for identifier 'IMEM'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_linebuf.v":21)
-Compiling module 'VDP_INTERRUPT'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_interrupt.v":11)
-Compiling module 'VDP_SSG'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_ssg.v":15)
-Compiling module 'VDP_HVCOUNTER'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_hvcounter.v":15)
-Compiling module 'VDP_COLORDEC'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_colordec.v":14)
-Compiling module 'VDP_TEXT12'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_text12.v":15)
-Compiling module 'VDP_GRAPHIC123M'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_graphic123m.v":14)
-Compiling module 'VDP_GRAPHIC4567'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_graphic4567.v":16)
-Compiling module 'VDP_SPRITE'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_sprite.v":15)
-Compiling module 'VDP_SPINFORAM'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_spinforam.v":23)
-Extracting RAM for identifier 'IMEM'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_spinforam.v":31)
-Compiling module 'ram9'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/ram.v":36)
-Extracting RAM for identifier 'blkram'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/ram.v":43)
-WARN  (EX3791) : Expression size 10 truncated to fit in target size 9("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_sprite.v":662)
-WARN  (EX3791) : Expression size 10 truncated to fit in target size 9("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_sprite.v":664)
-Compiling module 'VDP_REGISTER'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_register.v":12)
-Compiling module 'palette_rb'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/ram.v":56)
-Extracting RAM for identifier 'blkram'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/ram.v":63)
-Compiling module 'palette_g'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/ram.v":85)
-Extracting RAM for identifier 'blkram'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/ram.v":92)
-Compiling module 'VDP_COMMAND'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_command.v":17)
-WARN  (EX3791) : Expression size 13 truncated to fit in target size 11("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_command.v":656)
-WARN  (EX3791) : Expression size 13 truncated to fit in target size 11("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_command.v":691)
-WARN  (EX3791) : Expression size 13 truncated to fit in target size 11("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_command.v":775)
-Compiling module 'VDP_WAIT_CONTROL'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_wait_control.v":11)
-Extracting RAM for identifier 'C_WAIT_TABLE_501'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_wait_control.v":34)
-Extracting RAM for identifier 'C_WAIT_TABLE_502'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_wait_control.v":35)
-Extracting RAM for identifier 'C_WAIT_TABLE_503'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_wait_control.v":36)
-Extracting RAM for identifier 'C_WAIT_TABLE_504'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_wait_control.v":37)
-Extracting RAM for identifier 'C_WAIT_TABLE_505'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_wait_control.v":38)
-Extracting RAM for identifier 'C_WAIT_TABLE_601'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_wait_control.v":39)
-Extracting RAM for identifier 'C_WAIT_TABLE_602'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_wait_control.v":40)
-Extracting RAM for identifier 'C_WAIT_TABLE_603'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_wait_control.v":41)
-Extracting RAM for identifier 'C_WAIT_TABLE_604'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_wait_control.v":42)
-Extracting RAM for identifier 'C_WAIT_TABLE_605'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_wait_control.v":43)
-Compiling module 'CLOCK_DIV(CLK_SRC=125.0,CLK_DIV=3.57954545454545)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/clockdiv.v":24)
-WARN  (EX3791) : Expression size 64 truncated to fit in target size 32("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/clockdiv.v":35)
-WARN  (EX3791) : Expression size 64 truncated to fit in target size 32("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/clockdiv.v":36)
-WARN  (EX3791) : Expression size 64 truncated to fit in target size 32("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/clockdiv.v":38)
-WARN  (EX3791) : Expression size 18 truncated to fit in target size 17("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/clockdiv.v":54)
-WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/clockdiv.v":57)
-Compiling module 'CLOCK_DIV(CLK_SRC=27,CLK_DIV=0.0441)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/clockdiv.v":24)
-WARN  (EX3791) : Expression size 64 truncated to fit in target size 32("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/clockdiv.v":35)
-WARN  (EX3791) : Expression size 64 truncated to fit in target size 32("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/clockdiv.v":36)
-WARN  (EX3791) : Expression size 64 truncated to fit in target size 32("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/clockdiv.v":38)
-WARN  (EX3791) : Expression size 18 truncated to fit in target size 17("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/clockdiv.v":54)
-WARN  (EX3791) : Expression size 12 truncated to fit in target size 11("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/clockdiv.v":57)
-Compiling module 'hdmi(VIDEO_ID_CODE=2,VENDOR_NAME=64'b0101010101101110011010110110111001101111011101110110111000000000,PRODUCT_DESCRIPTION=128'b01000110010100000100011101000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,START_Y=480)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/hdmi.sv":4)
-Compiling module 'packet_picker(VIDEO_ID_CODE=2,VIDEO_RATE=27000000.0,IT_CONTENT=1'b1,AUDIO_BIT_WIDTH=16,AUDIO_RATE=44100,VENDOR_NAME=64'b0101010101101110011010110110111001101111011101110110111000000000,PRODUCT_DESCRIPTION=128'b01000110010100000100011101000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,SOURCE_DEVICE_INFORMATION=8'b00000000)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/packet_picker.sv":4)
-Extracting RAM for identifier 'audio_sample_word_buffer'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/packet_picker.sv":80)
-Compiling module 'audio_clock_regeneration_packet(VIDEO_RATE=27000000.0,AUDIO_RATE=44100)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/audio_clock_regeneration_packet.sv":5)
-Compiling module 'audio_sample_packet(WORD_LENGTH=4'b0010)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/audio_sample_packet.sv":8)
-WARN  (EX3780) : Using initial value of 'CHANNEL_LEFT' since it is never assigned("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/audio_sample_packet.sv":63)
-WARN  (EX3780) : Using initial value of 'CHANNEL_RIGHT' since it is never assigned("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/audio_sample_packet.sv":64)
-Compiling module 'auxiliary_video_information_info_frame(IT_CONTENT=1'b1,VIDEO_ID_CODE=32'sb00000000000000000000000000000010)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/auxiliary_video_information_info_frame.sv":5)
-Compiling module 'source_product_description_info_frame(VENDOR_NAME=64'b0101010101101110011010110110111001101111011101110110111000000000,PRODUCT_DESCRIPTION=128'b01000110010100000100011101000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,SOURCE_DEVICE_INFORMATION=8'b00000000)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/source_product_description_info_frame.sv":5)
-Compiling module 'audio_info_frame'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/audio_info_frame.sv":5)
-WARN  (EX1998) : Net 'headers[255][23]' does not have a driver("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/packet_picker.sv":29)
-WARN  (EX1998) : Net 'subs[255][3][55]' does not have a driver("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/packet_picker.sv":30)
-Compiling module 'packet_assembler'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/packet_assembler.sv":4)
-Compiling module 'tmds_channel'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/tmds_channel.sv":4)
-Compiling module 'tmds_channel(CN=1)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/tmds_channel.sv":4)
-Compiling module 'tmds_channel(CN=2)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/tmds_channel.sv":4)
-Compiling module 'hdmi(VIDEO_ID_CODE=17,IT_CONTENT=1'b0,VIDEO_REFRESH_RATE=50,VENDOR_NAME=64'b0101010101101110011010110110111001101111011101110110111000000000,PRODUCT_DESCRIPTION=128'b01000110010100000100011101000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,START_Y=565)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/hdmi.sv":4)
-Compiling module 'packet_picker(VIDEO_ID_CODE=17,VIDEO_RATE=27000000.0,AUDIO_BIT_WIDTH=16,AUDIO_RATE=44100,VENDOR_NAME=64'b0101010101101110011010110110111001101111011101110110111000000000,PRODUCT_DESCRIPTION=128'b01000110010100000100011101000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,SOURCE_DEVICE_INFORMATION=8'b00000000)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/packet_picker.sv":4)
-Extracting RAM for identifier 'audio_sample_word_buffer'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/packet_picker.sv":80)
-Compiling module 'auxiliary_video_information_info_frame(VIDEO_ID_CODE=32'sb00000000000000000000000000010001)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/auxiliary_video_information_info_frame.sv":5)
-WARN  (EX1998) : Net 'headers[255][23]' does not have a driver("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/packet_picker.sv":29)
-WARN  (EX1998) : Net 'subs[255][3][55]' does not have a driver("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/packet_picker.sv":30)
-WARN  (EX3670) : Actual bit length 10 differs from formal bit length 12 for port 'cx'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_top.v":502)
-Compiling module 'serializer(VIDEO_RATE=0)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/serializer.sv":3)
-WARN  (EX1998) : Net 'clk_sdram_w' does not have a driver("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_top.v":110)
-WARN  (EX1998) : Net 'clk_sdramp_w' does not have a driver("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_top.v":111)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 's1'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":763)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'clk_50'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":764)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'clk_125'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":765)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'adc_miso'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":783)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'maxspr_n'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":785)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'gromclk_ena_n'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":791)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'cpuclk_ena_n'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":792)
-WARN  (EX3791) : Expression size 25 truncated to fit in target size 23("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":917)
-WARN  (EX3791) : Expression size 32 truncated to fit in target size 1("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":935)
-WARN  (EX3791) : Expression size 32 truncated to fit in target size 1("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":940)
-WARN  (EX3791) : Expression size 16 truncated to fit in target size 8("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":960)
-Compiling module 'memory_ctrl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/memory.v":2)
-WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/memory.v":183)
-WARN  (EX3791) : Expression size 21 truncated to fit in target size 20("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/memory.v":193)
-WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/memory.v":203)
-WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/memory.v":514)
-Switching to VHDL mode to elaborate design unit 'YM2149'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1070)
-Processing 'YM2149(RTL)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl":62)
-'others' clause is never selected("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl":169)
-'others' clause is never selected("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl":225)
-'others' clause is never selected("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl":305)
-'others' clause is never selected("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl":529)
-'others' clause is never selected("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl":589)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'I_A9_L'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1051)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'I_A8'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1052)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'I_BC2'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1054)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'I_SEL_L'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1056)
-Returning to Verilog mode to proceed with elaboration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1070)
-Compiling module 'opll_ikaopll'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/opll_ikaopll.v":24)
-Compiling module 'IKAOPLL(FAST_RESET=1)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL.v":1)
-Compiling module 'IKAOPLL_timinggen'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_timinggen.v":1)
-Compiling module 'IKAOPLL_reg'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_reg.v":1)
-Compiling module 'IKAOPLL_rw_synchronizer'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_reg.v":467)
-Compiling module 'IKAOPLL_d9reg(WIDTH=8)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_reg.v":525)
-Compiling module 'IKAOPLL_sr(WIDTH=8,TAP0=2,TAP1=5,TAP2=8)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_primitives.v":31)
-Compiling module 'IKAOPLL_d9reg'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_reg.v":525)
-Compiling module 'IKAOPLL_sr(TAP0=2,TAP1=5,TAP2=8)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_primitives.v":31)
-Compiling module 'IKAOPLL_d9reg(WIDTH=3)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_reg.v":525)
-Compiling module 'IKAOPLL_sr(WIDTH=3,TAP0=2,TAP1=5,TAP2=8)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_primitives.v":31)
-Compiling module 'IKAOPLL_d9reg(WIDTH=4)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_reg.v":525)
-Compiling module 'IKAOPLL_sr(WIDTH=4,TAP0=2,TAP1=5,TAP2=8)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_primitives.v":31)
-Compiling module 'IKAOPLL_instrom'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_reg.v":554)
-Compiling module 'IKAOPLL_lfo'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_lfo.v":1)
-Compiling module 'IKAOPLL_pg(USE_PIPELINED_MULTIPLIER=0)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_pg.v":1)
-Compiling module 'IKAOPLL_sr(WIDTH=19,LENGTH=15)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_primitives.v":31)
-Compiling module 'IKAOPLL_eg'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_eg.v":1)
-Compiling module 'IKAOPLL_sr(WIDTH=2,LENGTH=18,TAP0=16)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_primitives.v":31)
-Compiling module 'IKAOPLL_sr(WIDTH=7,LENGTH=17,TAP0=15,TAP1=16)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_primitives.v":31)
-Compiling module 'IKAOPLL_op'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_op.v":1)
-Compiling module 'IKAOPLL_logsinrom'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_op.v":277)
-Compiling module 'IKAOPLL_exprom'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_op.v":325)
-Compiling module 'IKAOPLL_sr(WIDTH=12,TAP0=6)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_primitives.v":31)
-Compiling module 'IKAOPLL_dac'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_dac.v":1)
-Compiling module 'IKAOPLL_sr(WIDTH=9,LENGTH=5)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/ikaopll/IKAOPLL_primitives.v":31)
-Switching to VHDL mode to elaborate design unit 'scc_wave2'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1163)
-Processing 'scc_wave2(rtl)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/scc_wave2.vhd":79)
-Switching to Verilog mode to elaborate module 'ram'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/scc_wave2.vhd":332)
-Returning to VHDL mode to continue with elaboration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/scc_wave2.vhd":332)
-Processing 'scc_wave_mul(rtl)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/scc_wave2.vhd":39)
-Returning to Verilog mode to proceed with elaboration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1163)
-Compiling module 'megaram_scc'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/megaram.v":1)
-Compiling module 'lpf_butter4_8k(DW=16)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/lpf_butter4_8k.v":1)
-Compiling module 'svf_biquad(DW=16,QC=121109)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/svf_biquad.v":1)
-WARN  (EX3791) : Expression size 54 truncated to fit in target size 36("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/svf_biquad.v":28)
-WARN  (EX3791) : Expression size 54 truncated to fit in target size 36("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/svf_biquad.v":31)
-WARN  (EX3791) : Expression size 54 truncated to fit in target size 36("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/svf_biquad.v":34)
-Compiling module 'svf_biquad(DW=16)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/svf_biquad.v":1)
-WARN  (EX3791) : Expression size 54 truncated to fit in target size 36("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/svf_biquad.v":28)
-WARN  (EX3791) : Expression size 54 truncated to fit in target size 36("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/svf_biquad.v":31)
-WARN  (EX3791) : Expression size 54 truncated to fit in target size 36("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/svf_biquad.v":34)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'en'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1235)
-Compiling module 'kanji'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/kanji.v":43)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'reset'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1270)
-Switching to VHDL mode to elaborate design unit 'monostable'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1406)
-Processing 'monostable(rtl)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/monostable/monostable.vhd":7)
-Returning to Verilog mode to proceed with elaboration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1406)
-Compiling module 'flash(STARTUP_WAIT=1)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/flash_rw.v":1)
-WARN  (EX3780) : Using initial value of 'command' since it is never assigned("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/flash_rw.v":84)
-WARN  (EX3791) : Expression size 32 truncated to fit in target size 9("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/flash_rw.v":157)
-WARN  (EX3791) : Expression size 32 truncated to fit in target size 9("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/flash_rw.v":174)
-WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/flash_rw.v":454)
-WARN  (EX3791) : Expression size 25 truncated to fit in target size 24("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1616)
-WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1621)
-WARN  (EX3791) : Expression size 32 truncated to fit in target size 3("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1677)
-WARN  (EX2208) : Illegal integral type argument in math function 'pow()', expected real type("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/dpram.v":21)
-Compiling module 'dpram(widthad_a=9)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/dpram.v":1)
-WARN  (EX3791) : Expression size 64 truncated to fit in target size 32("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/dpram.v":21)
-Extracting RAM for identifier 'mem_r'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/dpram.v":23)
-Compiling module 'sd_reader(CLK_DIV=3'd3)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/sd_reader.sv":11)
-WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/sd_reader.sv":125)
-Compiling module 'sdcmd_ctrl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/sdcmd_ctrl.sv":10)
-WARN  (EX3771) : Module instantiation should have an instance name("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/sd_reader.sv":304)
-Compiling module 'sd_crc_16'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/wondertang/crc16.v":5)
-Switching to VHDL mode to elaborate design unit 'switched_io_ports'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1932)
-Processing 'switched_io_ports(RTL)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/swioports.vhd":38)
-WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'power_on_reset'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1923)
-Returning to Verilog mode to proceed with elaboration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1932)
-Switching to VHDL mode to elaborate design unit 'monostable'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1945)
-Returning to Verilog mode to proceed with elaboration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1945)
-Compiling module 'timing_debug'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/msx_debug/timing_debug.v":2)
-Extracting RAM for identifier 'print_seq'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/msx_debug/print.v":6)
-Compiling module 'pulse_min'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/pulse_min_max/pulse_min.v":1)
-WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/pulse_min_max/pulse_min.v":61)
-Compiling module 'pulse_max'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/pulse_min_max/pulse_max.v":1)
-WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/pulse_min_max/pulse_max.v":61)
-Compiling module 'uart_tx_V2'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/msx_debug/uart_tx.v":1)
-WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/msx_debug/uart_tx.v":49)
-WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/msx_debug/timing_debug.v":159)
-WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/msx_debug/timing_debug.v":209)
-WARN  (EX2565) : Input 'ff_dip_req[7]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'ff_dip_req[6]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'ff_dip_req[5]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'ff_dip_req[4]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'ff_dip_req[3]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'ff_dip_req[2]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'ff_dip_req[1]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'ff_dip_req[0]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'Scro' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'ff_Scro' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'Reso' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'ff_Reso' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'FKeys[7]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'FKeys[6]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'FKeys[5]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'FKeys[4]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'FKeys[3]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'FKeys[2]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'FKeys[1]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'FKeys[0]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'vFKeys[7]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'vFKeys[6]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'vFKeys[5]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'vFKeys[4]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'vFKeys[3]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'vFKeys[2]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'vFKeys[1]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'vFKeys[0]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'ff_ldbios_n' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'SdrSize[1]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
-WARN  (EX2565) : Input 'SdrSize[0]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1920)
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/board/board_id.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/board/config_wt101c.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_dac.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_eg.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_lfo.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_op.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_pg.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_primitives.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_reg.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_timinggen.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/opll_ikaopll.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jt2413.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl2.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_acc.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_csr.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_div.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_eg.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_eg_cnt.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_eg_comb.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_eg_ctrl.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_eg_final.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_eg_pure.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_eg_step.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_exprom.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_lfo.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_logsin.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_mmr.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_noise.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_op.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_pg.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_pg_comb.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_pg_inc.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_pg_rhy.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_pg_sum.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_pm.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_reg.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_reg_ch.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_sh.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_sh_rst.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_single_acc.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_slot_cnt.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopl_timers.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopll_mmr.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopll_reg.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/jtopl/jtopll_reg_ch.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/msx_debug/msx2p_debug.v'
+Analyzing included file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/msx_debug/print.v'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/msx_debug/msx2p_debug.v":297)
+Back to file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/msx_debug/msx2p_debug.v'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/msx_debug/msx2p_debug.v":297)
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/msx_debug/timing_debug.v'
+Analyzing included file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/msx_debug/print.v'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/msx_debug/timing_debug.v":146)
+Back to file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/msx_debug/timing_debug.v'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/msx_debug/timing_debug.v":146)
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/msx_debug/uart_tx.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/pulse_min_max/pulse_max.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/pulse_min_max/pulse_min.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v'
+Undeclared symbol 'reset1_n', assumed default net type 'wire'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":242)
+Undeclared symbol 'reset2_n', assumed default net type 'wire'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":243)
+Undeclared symbol 'flash_idle', assumed default net type 'wire'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":369)
+Undeclared symbol 'host_ready', assumed default net type 'wire'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":369)
+WARN  (EX3638) : 'host_ready' is already implicitly declared on line 369("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":459)
+Undeclared symbol 'config_enable_scanlines', assumed default net type 'wire'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":789)
+WARN  (EX3638) : 'config_enable_scanlines' is already implicitly declared on line 789("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1329)
+WARN  (EX3638) : 'flash_idle' is already implicitly declared on line 369("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1551)
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/bios_missing.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/flash_rw.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/gowin/clk_108p.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/gowin/clk_135.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/gowin_clkdiv/gowin_clkdiv.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/audio_clock_regeneration_packet.sv'
+WARN  (EX2478) : Non-net output port 'clk_audio_counter_wrap' cannot be initialized at declaration in SystemVerilog mode("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/audio_clock_regeneration_packet.sv":13)
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/audio_info_frame.sv'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/audio_sample_packet.sv'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/auxiliary_video_information_info_frame.sv'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/hdmi.sv'
+WARN  (EX3628) : Redeclaration of ANSI port 'tmds_internal' is not allowed("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/hdmi.sv":363)
+WARN  (EX2478) : Non-net output port 'cx' cannot be initialized at declaration in SystemVerilog mode("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/hdmi.sv":82)
+WARN  (EX2478) : Non-net output port 'cy' cannot be initialized at declaration in SystemVerilog mode("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/hdmi.sv":83)
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/packet_assembler.sv'
+WARN  (EX2478) : Non-net output port 'counter' cannot be initialized at declaration in SystemVerilog mode("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/packet_assembler.sv":11)
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/packet_picker.sv'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/serializer.sv'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/source_product_description_info_frame.sv'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/tmds_channel.sv'
+WARN  (EX2478) : Non-net output port 'tmds' cannot be initialized at declaration in SystemVerilog mode("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/tmds_channel.sv":16)
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/impulse.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/lpf_butter4_8k.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/megaram.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/is_msx2.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/memory.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/kanji.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/rtc.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ram8k.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/slave_bus.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/slave_rom.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/svf_biquad.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/clockdiv.v'
+WARN  (EX2208) : Illegal integral type argument in math function 'pow()', expected real type("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/clockdiv.v":38)
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/crc16.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/dpram.v'
+WARN  (EX2208) : Illegal integral type argument in math function 'pow()', expected real type("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/dpram.v":21)
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/mp_debouncer.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/pinfilter.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/sd_reader.sv'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/sdcmd_ctrl.sv'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/xchg_regs.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/top_wt10x.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/ram.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp.v'
+Analyzing included file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_config.vh'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp.v":15)
+Back to file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp.v'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp.v":15)
+Analyzing included file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_package.vh'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp.v":75)
+Back to file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp.v'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp.v":75)
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_colordec.v'
+Analyzing included file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_config.vh'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_colordec.v":12)
+Back to file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_colordec.v'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_colordec.v":12)
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_command.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_command_cache.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_doublebuf.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_graphic123m.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_graphic4567.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_hvcounter.v'
+Analyzing included file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_package.vh'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_hvcounter.v":36)
+Back to file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_hvcounter.v'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_hvcounter.v":36)
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_interrupt.v'
+Analyzing included file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_package.vh'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_interrupt.v":31)
+Back to file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_interrupt.v'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_interrupt.v":31)
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_linebuf.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_ntsc_pal.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_register.v'
+Analyzing included file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_config.vh'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_register.v":10)
+Back to file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_register.v'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_register.v":10)
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_spinforam.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_sprite.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_sprite_m3.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_ssg.v'
+Analyzing included file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_package.vh'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_ssg.v":54)
+Back to file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_ssg.v'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_ssg.v":54)
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_text12.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_top.v'
+Undeclared symbol 'clk_108m', assumed default net type 'wire'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_top.v":71)
+Undeclared symbol 'clk_108m_n', assumed default net type 'wire'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_top.v":72)
+Undeclared symbol 'rst_n', assumed default net type 'wire'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_top.v":138)
+Undeclared symbol 'clk_135', assumed default net type 'wire'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_top.v":143)
+Undeclared symbol 'cpuclk_w', assumed default net type 'wire'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_top.v":370)
+Undeclared symbol 'clk_audio_w', assumed default net type 'wire'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_top.v":437)
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_vga.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_wait_control.v'
+Analyzing Verilog file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vencode.v'
+Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/t80_pack.vhd'
+Analyzing package 't80_pack'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/t80_pack.vhd":58)
+Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/T80s.vhd'
+Analyzing entity 't80s'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/T80s.vhd":73)
+Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/T80s.vhd":102)
+Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/g80a.vhd'
+Analyzing entity 'g80a'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/g80a.vhd":69)
+Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/g80a.vhd":99)
+Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/t80.vhd'
+Analyzing entity 't80'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/t80.vhd":73)
+Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/t80.vhd":114)
+Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/t80_alu.vhd'
+Analyzing entity 't80_alu'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/t80_alu.vhd":65)
+Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/t80_alu.vhd":92)
+Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/t80_mcode.vhd'
+Analyzing entity 't80_mcode'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/t80_mcode.vhd":71)
+Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/t80_mcode.vhd":143)
+Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/t80_reg.vhd'
+Analyzing entity 't80_reg'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/t80_reg.vhd":61)
+Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/t80_reg.vhd":81)
+Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl'
+Analyzing entity 'ym2149'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl":62)
+Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl":94)
+Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/denoise/denoise.vhd'
+Analyzing entity 'denoise'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/denoise/denoise.vhd":5)
+Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/denoise/denoise.vhd":15)
+Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/monostable/monostable.vhd'
+Analyzing entity 'monostable'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/monostable/monostable.vhd":7)
+Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/monostable/monostable.vhd":18)
+Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/gowin_clkdiv2/gowin_clkdiv2.vhd'
+Analyzing entity 'gowin_clkdiv2'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/gowin_clkdiv2/gowin_clkdiv2.vhd":13)
+Analyzing architecture 'behavioral'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/gowin_clkdiv2/gowin_clkdiv2.vhd":21)
+Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/fifo.vhd'
+Analyzing entity 'fifo'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/fifo.vhd":53)
+Analyzing architecture 'behavioral'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/fifo.vhd":78)
+Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/lpf.vhd'
+Analyzing entity 'lpf1'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/lpf.vhd":39)
+Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/lpf.vhd":52)
+Analyzing entity 'lpf2'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/lpf.vhd":102)
+Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/lpf.vhd":115)
+Analyzing entity 'interpo_mul'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/lpf.vhd":183)
+Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/lpf.vhd":194)
+Analyzing entity 'interpo'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/lpf.vhd":206)
+Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/lpf.vhd":219)
+Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/scc_wave2.vhd'
+Analyzing entity 'scc_wave_mul'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/scc_wave2.vhd":39)
+Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/scc_wave2.vhd":47)
+Analyzing entity 'scc_mix_mul'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/scc_wave2.vhd":59)
+Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/scc_wave2.vhd":67)
+Analyzing entity 'scc_wave2'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/scc_wave2.vhd":79)
+Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/scc_wave2.vhd":94)
+Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/swioports.vhd'
+WARN  (EX4760) : 'vdp_package' is not compiled in library 'work'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/swioports.vhd":36)
+Analyzing entity 'switched_io_ports'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/swioports.vhd":38)
+Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/swioports.vhd":125)
+Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/uart_lite.vhd'
+Analyzing entity 'uart'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/uart_lite.vhd":43)
+Analyzing architecture 'rtl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/uart_lite.vhd":58)
+Analyzing VHDL file '/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/wifi_lite.vhd'
+Analyzing entity 'wifi'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/wifi_lite.vhd":97)
+Analyzing architecture 'behavior'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/wifi_lite.vhd":113)
+Compiling module 'top'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/top_wt10x.v":3)
+Compiling module 'CLK_108P'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/gowin/clk_108p.v":10)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'reset'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/top_wt10x.v":86)
+Switching to VHDL mode to elaborate design unit 'Gowin_CLKDIV2'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/top_wt10x.v":95)
+Processing 'Gowin_CLKDIV2(Behavioral)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/gowin_clkdiv2/gowin_clkdiv2.vhd":13)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'resetn'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/top_wt10x.v":94)
+Returning to Verilog mode to proceed with elaboration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/top_wt10x.v":95)
+Compiling module 'Gowin_CLKDIV'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/gowin_clkdiv/gowin_clkdiv.v":10)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'resetn'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/top_wt10x.v":101)
+Compiling module 'mp_debouncer'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/mp_debouncer.v":1)
+Compiling module 'slave_bus(DIR_DELAY=4'd2)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/slave_bus.v":26)
+Compiling module 'slave_rom'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/slave_rom.v":19)
+Extracting RAM for identifier 'mem_r'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/slave_rom.v":25)
+WARN  (EX3073) : Port 'io41_id212_n' remains unconnected for this instance("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1935)
+Compiling module 'asgard'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":10)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":93)
+WARN  (EX2208) : Illegal integral type argument in math function 'pow()', expected real type("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/clockdiv.v":38)
+Compiling module 'CLOCK_DIV(CLK_SRC=54.0,CLK_DIV=3.58)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/clockdiv.v":24)
+WARN  (EX3791) : Expression size 64 truncated to fit in target size 32("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/clockdiv.v":35)
+WARN  (EX3791) : Expression size 64 truncated to fit in target size 32("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/clockdiv.v":36)
+WARN  (EX3791) : Expression size 64 truncated to fit in target size 32("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/clockdiv.v":38)
+WARN  (EX3791) : Expression size 18 truncated to fit in target size 17("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/clockdiv.v":54)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/clockdiv.v":57)
+WARN  (EX3791) : Expression size 22 truncated to fit in target size 21("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":207)
+Switching to VHDL mode to elaborate design unit 'G80a'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":390)
+Processing 'G80a(rtl)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/g80a.vhd":69)
+Processing 'T80(iowait=1)(rtl)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/t80.vhd":73)
+Processing 'T80_MCode(rtl)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/t80_mcode.vhd":71)
+Processing 'T80_ALU(rtl)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/t80_alu.vhd":65)
+Processing 'T80_Reg(rtl)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/t80_reg.vhd":61)
+Extracting RAM for identifier 'RegsH'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/t80_reg.vhd":84)
+Extracting RAM for identifier 'RegsL'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/G80A/t80_reg.vhd":85)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'NMI_n'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":375)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'BUSRQ_n'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":376)
+Returning to Verilog mode to proceed with elaboration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":390)
+Compiling module 'xchg_regs'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/xchg_regs.v":30)
+Extracting RAM for identifier 'keys'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/xchg_regs.v":54)
+Compiling module 'ram8k'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ram8k.v":1)
+Extracting RAM for identifier 'mem_r'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ram8k.v":9)
+Compiling module 'bios_missing'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/bios_missing.v":14)
+Extracting RAM for identifier 'mem_r'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/bios_missing.v":20)
+Compiling module 'rtc'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/rtc.v":53)
+Compiling module 'ram'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/ram.v":14)
+Extracting RAM for identifier 'blkram'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/ram.v":21)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'reset'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":696)
+Compiling module 'is_msx2'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/is_msx2.v":38)
+WARN  (EX3073) : Port 'frame_width' remains unconnected for this instance("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_top.v":479)
+WARN  (EX3073) : Port 'frame_width' remains unconnected for this instance("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_top.v":505)
+WARN  (EX3073) : Port 'tmds_clock' remains unconnected for this instance("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_top.v":516)
+Compiling module 'vdp_top'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_top.v":3)
+Compiling module 'CLK_135'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/gowin/clk_135.v":10)
+Compiling module 'VDP'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp.v":17)
+Compiling module 'VDP_NTSC_PAL'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_ntsc_pal.v":12)
+Compiling module 'VDP_VGA'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_vga.v":13)
+Compiling module 'VDP_DOUBLEBUF'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_doublebuf.v":22)
+Compiling module 'VDP_LINEBUF'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_linebuf.v":11)
+Extracting RAM for identifier 'IMEM'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_linebuf.v":21)
+Compiling module 'VDP_INTERRUPT'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_interrupt.v":11)
+Compiling module 'VDP_SSG'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_ssg.v":15)
+Compiling module 'VDP_HVCOUNTER'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_hvcounter.v":15)
+Compiling module 'VDP_COLORDEC'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_colordec.v":14)
+Compiling module 'VDP_TEXT12'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_text12.v":15)
+Compiling module 'VDP_GRAPHIC123M'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_graphic123m.v":14)
+Compiling module 'VDP_GRAPHIC4567'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_graphic4567.v":16)
+Compiling module 'VDP_SPRITE'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_sprite.v":15)
+Compiling module 'VDP_SPINFORAM'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_spinforam.v":23)
+Extracting RAM for identifier 'IMEM'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_spinforam.v":31)
+Compiling module 'ram9'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/ram.v":36)
+Extracting RAM for identifier 'blkram'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/ram.v":43)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 9("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_sprite.v":662)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 9("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_sprite.v":664)
+Compiling module 'VDP_REGISTER'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_register.v":12)
+Compiling module 'palette_rb'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/ram.v":56)
+Extracting RAM for identifier 'blkram'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/ram.v":63)
+Compiling module 'palette_g'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/ram.v":85)
+Extracting RAM for identifier 'blkram'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/ram.v":92)
+Compiling module 'VDP_COMMAND'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_command.v":17)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 11("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_command.v":656)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 11("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_command.v":691)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 11("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_command.v":775)
+Compiling module 'VDP_WAIT_CONTROL'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_wait_control.v":11)
+Extracting RAM for identifier 'C_WAIT_TABLE_501'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_wait_control.v":34)
+Extracting RAM for identifier 'C_WAIT_TABLE_502'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_wait_control.v":35)
+Extracting RAM for identifier 'C_WAIT_TABLE_503'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_wait_control.v":36)
+Extracting RAM for identifier 'C_WAIT_TABLE_504'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_wait_control.v":37)
+Extracting RAM for identifier 'C_WAIT_TABLE_505'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_wait_control.v":38)
+Extracting RAM for identifier 'C_WAIT_TABLE_601'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_wait_control.v":39)
+Extracting RAM for identifier 'C_WAIT_TABLE_602'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_wait_control.v":40)
+Extracting RAM for identifier 'C_WAIT_TABLE_603'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_wait_control.v":41)
+Extracting RAM for identifier 'C_WAIT_TABLE_604'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_wait_control.v":42)
+Extracting RAM for identifier 'C_WAIT_TABLE_605'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_wait_control.v":43)
+Compiling module 'CLOCK_DIV(CLK_SRC=125.0,CLK_DIV=3.57954545454545)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/clockdiv.v":24)
+WARN  (EX3791) : Expression size 64 truncated to fit in target size 32("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/clockdiv.v":35)
+WARN  (EX3791) : Expression size 64 truncated to fit in target size 32("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/clockdiv.v":36)
+WARN  (EX3791) : Expression size 64 truncated to fit in target size 32("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/clockdiv.v":38)
+WARN  (EX3791) : Expression size 18 truncated to fit in target size 17("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/clockdiv.v":54)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/clockdiv.v":57)
+Compiling module 'CLOCK_DIV(CLK_SRC=27,CLK_DIV=0.0441)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/clockdiv.v":24)
+WARN  (EX3791) : Expression size 64 truncated to fit in target size 32("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/clockdiv.v":35)
+WARN  (EX3791) : Expression size 64 truncated to fit in target size 32("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/clockdiv.v":36)
+WARN  (EX3791) : Expression size 64 truncated to fit in target size 32("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/clockdiv.v":38)
+WARN  (EX3791) : Expression size 18 truncated to fit in target size 17("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/clockdiv.v":54)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 11("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/clockdiv.v":57)
+Compiling module 'hdmi(VIDEO_ID_CODE=2,VENDOR_NAME=64'b0101010101101110011010110110111001101111011101110110111000000000,PRODUCT_DESCRIPTION=128'b01000110010100000100011101000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,START_Y=480)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/hdmi.sv":4)
+Compiling module 'packet_picker(VIDEO_ID_CODE=2,VIDEO_RATE=27000000.0,IT_CONTENT=1'b1,AUDIO_BIT_WIDTH=16,AUDIO_RATE=44100,VENDOR_NAME=64'b0101010101101110011010110110111001101111011101110110111000000000,PRODUCT_DESCRIPTION=128'b01000110010100000100011101000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,SOURCE_DEVICE_INFORMATION=8'b00000000)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/packet_picker.sv":4)
+Extracting RAM for identifier 'audio_sample_word_buffer'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/packet_picker.sv":80)
+Compiling module 'audio_clock_regeneration_packet(VIDEO_RATE=27000000.0,AUDIO_RATE=44100)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/audio_clock_regeneration_packet.sv":5)
+Compiling module 'audio_sample_packet(WORD_LENGTH=4'b0010)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/audio_sample_packet.sv":8)
+WARN  (EX3780) : Using initial value of 'CHANNEL_LEFT' since it is never assigned("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/audio_sample_packet.sv":63)
+WARN  (EX3780) : Using initial value of 'CHANNEL_RIGHT' since it is never assigned("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/audio_sample_packet.sv":64)
+Compiling module 'auxiliary_video_information_info_frame(IT_CONTENT=1'b1,VIDEO_ID_CODE=32'sb00000000000000000000000000000010)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/auxiliary_video_information_info_frame.sv":5)
+Compiling module 'source_product_description_info_frame(VENDOR_NAME=64'b0101010101101110011010110110111001101111011101110110111000000000,PRODUCT_DESCRIPTION=128'b01000110010100000100011101000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,SOURCE_DEVICE_INFORMATION=8'b00000000)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/source_product_description_info_frame.sv":5)
+Compiling module 'audio_info_frame'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/audio_info_frame.sv":5)
+WARN  (EX1998) : Net 'headers[255][23]' does not have a driver("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/packet_picker.sv":29)
+WARN  (EX1998) : Net 'subs[255][3][55]' does not have a driver("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/packet_picker.sv":30)
+Compiling module 'packet_assembler'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/packet_assembler.sv":4)
+Compiling module 'tmds_channel'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/tmds_channel.sv":4)
+Compiling module 'tmds_channel(CN=1)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/tmds_channel.sv":4)
+Compiling module 'tmds_channel(CN=2)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/tmds_channel.sv":4)
+Compiling module 'hdmi(VIDEO_ID_CODE=17,IT_CONTENT=1'b0,VIDEO_REFRESH_RATE=50,VENDOR_NAME=64'b0101010101101110011010110110111001101111011101110110111000000000,PRODUCT_DESCRIPTION=128'b01000110010100000100011101000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,START_Y=565)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/hdmi.sv":4)
+Compiling module 'packet_picker(VIDEO_ID_CODE=17,VIDEO_RATE=27000000.0,AUDIO_BIT_WIDTH=16,AUDIO_RATE=44100,VENDOR_NAME=64'b0101010101101110011010110110111001101111011101110110111000000000,PRODUCT_DESCRIPTION=128'b01000110010100000100011101000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,SOURCE_DEVICE_INFORMATION=8'b00000000)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/packet_picker.sv":4)
+Extracting RAM for identifier 'audio_sample_word_buffer'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/packet_picker.sv":80)
+Compiling module 'auxiliary_video_information_info_frame(VIDEO_ID_CODE=32'sb00000000000000000000000000010001)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/auxiliary_video_information_info_frame.sv":5)
+WARN  (EX1998) : Net 'headers[255][23]' does not have a driver("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/packet_picker.sv":29)
+WARN  (EX1998) : Net 'subs[255][3][55]' does not have a driver("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/packet_picker.sv":30)
+WARN  (EX3670) : Actual bit length 10 differs from formal bit length 12 for port 'cx'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_top.v":502)
+Compiling module 'serializer(VIDEO_RATE=0)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/serializer.sv":3)
+WARN  (EX1998) : Net 'clk_sdram_w' does not have a driver("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_top.v":110)
+WARN  (EX1998) : Net 'clk_sdramp_w' does not have a driver("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_top.v":111)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 's1'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":765)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'clk_50'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":766)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'clk_125'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":767)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'adc_miso'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":785)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'maxspr_n'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":787)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'gromclk_ena_n'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":793)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'cpuclk_ena_n'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":794)
+WARN  (EX3791) : Expression size 25 truncated to fit in target size 23("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":919)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 1("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":937)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 1("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":942)
+WARN  (EX3791) : Expression size 16 truncated to fit in target size 8("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":962)
+Compiling module 'memory_ctrl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/memory.v":2)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/memory.v":183)
+WARN  (EX3791) : Expression size 21 truncated to fit in target size 20("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/memory.v":193)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/memory.v":203)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/memory.v":514)
+Switching to VHDL mode to elaborate design unit 'YM2149'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1072)
+Processing 'YM2149(RTL)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl":62)
+'others' clause is never selected("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl":169)
+'others' clause is never selected("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl":225)
+'others' clause is never selected("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl":305)
+'others' clause is never selected("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl":529)
+'others' clause is never selected("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl":589)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'I_A9_L'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1053)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'I_A8'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1054)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'I_BC2'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1056)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'I_SEL_L'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1058)
+Returning to Verilog mode to proceed with elaboration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1072)
+Compiling module 'opll_ikaopll'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/opll_ikaopll.v":24)
+Compiling module 'IKAOPLL(FAST_RESET=1)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL.v":1)
+Compiling module 'IKAOPLL_timinggen'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_timinggen.v":1)
+Compiling module 'IKAOPLL_reg'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_reg.v":1)
+Compiling module 'IKAOPLL_rw_synchronizer'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_reg.v":467)
+Compiling module 'IKAOPLL_d9reg(WIDTH=8)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_reg.v":525)
+Compiling module 'IKAOPLL_sr(WIDTH=8,TAP0=2,TAP1=5,TAP2=8)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_primitives.v":31)
+Compiling module 'IKAOPLL_d9reg'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_reg.v":525)
+Compiling module 'IKAOPLL_sr(TAP0=2,TAP1=5,TAP2=8)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_primitives.v":31)
+Compiling module 'IKAOPLL_d9reg(WIDTH=3)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_reg.v":525)
+Compiling module 'IKAOPLL_sr(WIDTH=3,TAP0=2,TAP1=5,TAP2=8)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_primitives.v":31)
+Compiling module 'IKAOPLL_d9reg(WIDTH=4)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_reg.v":525)
+Compiling module 'IKAOPLL_sr(WIDTH=4,TAP0=2,TAP1=5,TAP2=8)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_primitives.v":31)
+Compiling module 'IKAOPLL_instrom'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_reg.v":554)
+Compiling module 'IKAOPLL_lfo'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_lfo.v":1)
+Compiling module 'IKAOPLL_pg(USE_PIPELINED_MULTIPLIER=0)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_pg.v":1)
+Compiling module 'IKAOPLL_sr(WIDTH=19,LENGTH=15)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_primitives.v":31)
+Compiling module 'IKAOPLL_eg'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_eg.v":1)
+Compiling module 'IKAOPLL_sr(WIDTH=2,LENGTH=18,TAP0=16)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_primitives.v":31)
+Compiling module 'IKAOPLL_sr(WIDTH=7,LENGTH=17,TAP0=15,TAP1=16)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_primitives.v":31)
+Compiling module 'IKAOPLL_op'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_op.v":1)
+Compiling module 'IKAOPLL_logsinrom'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_op.v":277)
+Compiling module 'IKAOPLL_exprom'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_op.v":325)
+Compiling module 'IKAOPLL_sr(WIDTH=12,TAP0=6)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_primitives.v":31)
+Compiling module 'IKAOPLL_dac'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_dac.v":1)
+Compiling module 'IKAOPLL_sr(WIDTH=9,LENGTH=5)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/ikaopll/IKAOPLL_primitives.v":31)
+Switching to VHDL mode to elaborate design unit 'scc_wave2'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1165)
+Processing 'scc_wave2(rtl)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/scc_wave2.vhd":79)
+Switching to Verilog mode to elaborate module 'ram'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/scc_wave2.vhd":332)
+Returning to VHDL mode to continue with elaboration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/scc_wave2.vhd":332)
+Processing 'scc_wave_mul(rtl)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/scc_wave2.vhd":39)
+Returning to Verilog mode to proceed with elaboration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1165)
+Compiling module 'megaram_scc'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/megaram.v":1)
+Compiling module 'lpf_butter4_8k(DW=16)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/lpf_butter4_8k.v":1)
+Compiling module 'svf_biquad(DW=16,QC=121109)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/svf_biquad.v":1)
+WARN  (EX3791) : Expression size 54 truncated to fit in target size 36("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/svf_biquad.v":28)
+WARN  (EX3791) : Expression size 54 truncated to fit in target size 36("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/svf_biquad.v":31)
+WARN  (EX3791) : Expression size 54 truncated to fit in target size 36("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/svf_biquad.v":34)
+Compiling module 'svf_biquad(DW=16)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/svf_biquad.v":1)
+WARN  (EX3791) : Expression size 54 truncated to fit in target size 36("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/svf_biquad.v":28)
+WARN  (EX3791) : Expression size 54 truncated to fit in target size 36("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/svf_biquad.v":31)
+WARN  (EX3791) : Expression size 54 truncated to fit in target size 36("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/svf_biquad.v":34)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'en'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1237)
+Compiling module 'kanji'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/kanji.v":43)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'reset'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1272)
+Switching to VHDL mode to elaborate design unit 'monostable'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1408)
+Processing 'monostable(rtl)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/monostable/monostable.vhd":7)
+Returning to Verilog mode to proceed with elaboration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1408)
+Compiling module 'flash(STARTUP_WAIT=1)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/flash_rw.v":1)
+WARN  (EX3780) : Using initial value of 'command' since it is never assigned("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/flash_rw.v":84)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 9("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/flash_rw.v":157)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 9("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/flash_rw.v":174)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/flash_rw.v":454)
+WARN  (EX3791) : Expression size 25 truncated to fit in target size 24("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1618)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1623)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 3("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1679)
+WARN  (EX2208) : Illegal integral type argument in math function 'pow()', expected real type("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/dpram.v":21)
+Compiling module 'dpram(widthad_a=9)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/dpram.v":1)
+WARN  (EX3791) : Expression size 64 truncated to fit in target size 32("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/dpram.v":21)
+Extracting RAM for identifier 'mem_r'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/dpram.v":23)
+Compiling module 'sd_reader(CLK_DIV=3'd3)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/sd_reader.sv":11)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/sd_reader.sv":125)
+Compiling module 'sdcmd_ctrl'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/sdcmd_ctrl.sv":10)
+WARN  (EX3771) : Module instantiation should have an instance name("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/sd_reader.sv":304)
+Compiling module 'sd_crc_16'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/wondertang/crc16.v":5)
+Switching to VHDL mode to elaborate design unit 'switched_io_ports'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1935)
+Processing 'switched_io_ports(RTL)'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/swioports.vhd":38)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'power_on_reset'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1926)
+Returning to Verilog mode to proceed with elaboration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1935)
+Switching to VHDL mode to elaborate design unit 'monostable'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1948)
+Returning to Verilog mode to proceed with elaboration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1948)
+Compiling module 'timing_debug'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/msx_debug/timing_debug.v":2)
+Extracting RAM for identifier 'print_seq'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/msx_debug/print.v":6)
+Compiling module 'pulse_min'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/pulse_min_max/pulse_min.v":1)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/pulse_min_max/pulse_min.v":61)
+Compiling module 'pulse_max'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/pulse_min_max/pulse_max.v":1)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/pulse_min_max/pulse_max.v":61)
+Compiling module 'uart_tx_V2'("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/msx_debug/uart_tx.v":1)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/msx_debug/uart_tx.v":49)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/msx_debug/timing_debug.v":159)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/msx_debug/timing_debug.v":209)
+WARN  (EX2565) : Input 'ff_dip_req[7]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'ff_dip_req[6]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'ff_dip_req[5]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'ff_dip_req[4]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'ff_dip_req[3]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'ff_dip_req[2]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'ff_dip_req[1]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'ff_dip_req[0]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'Scro' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'ff_Scro' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'Reso' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'ff_Reso' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'FKeys[7]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'FKeys[6]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'FKeys[5]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'FKeys[4]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'FKeys[3]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'FKeys[2]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'FKeys[1]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'FKeys[0]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'vFKeys[7]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'vFKeys[6]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'vFKeys[5]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'vFKeys[4]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'vFKeys[3]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'vFKeys[2]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'vFKeys[1]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'vFKeys[0]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'ff_ldbios_n' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'SdrSize[1]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
+WARN  (EX2565) : Input 'SdrSize[0]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1923)
 NOTE  (EX0101) : Current top module is "top"
-WARN  (EX0211) : The output port "adc_clk" of module "vdp_top" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_top.v":28)
-WARN  (EX0211) : The output port "adc_cs" of module "vdp_top" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_top.v":29)
-WARN  (EX0211) : The output port "adc_mosi" of module "vdp_top" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_top.v":30)
-WARN  (EX0211) : The output port "write_terminate" of module "flash(STARTUP_WAIT=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/flash_rw.v":24)
+WARN  (EX0211) : The output port "adc_clk" of module "vdp_top" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_top.v":28)
+WARN  (EX0211) : The output port "adc_cs" of module "vdp_top" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_top.v":29)
+WARN  (EX0211) : The output port "adc_mosi" of module "vdp_top" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_top.v":30)
+WARN  (EX0211) : The output port "write_terminate" of module "flash(STARTUP_WAIT=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/flash_rw.v":24)
 [5%] Running netlist conversion ...
-WARN  (CV0016) : Input s1 is unused("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/top_wt10x.v":6)
-WARN  (CV0016) : Input cpu_clkin is unused("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/top_wt10x.v":18)
+WARN  (CV0016) : Input s1 is unused("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/top_wt10x.v":6)
+WARN  (CV0016) : Input cpu_clkin is unused("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/top_wt10x.v":18)
 Running device independent optimization ...
 [10%] Optimizing Phase 0 completed
 [15%] Optimizing Phase 1 completed
@@ -501,50 +501,50 @@ Running technical mapping ...
 [60%] Tech-Mapping Phase 0 completed
 [65%] Tech-Mapping Phase 1 completed
 [75%] Tech-Mapping Phase 2 completed
-WARN  (AG0100) : Find logical loop signal : "env_vol[4]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl":511)
-WARN  (AG0100) : Find logical loop signal : "env_vol[4]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl":511)
-WARN  (AG0100) : Find logical loop signal : "env_vol[4]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl":511)
+WARN  (AG0100) : Find logical loop signal : "env_vol[4]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl":511)
+WARN  (AG0100) : Find logical loop signal : "env_vol[4]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl":511)
+WARN  (AG0100) : Find logical loop signal : "env_vol[4]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl":511)
 WARN  (AG0101) : The netlist is not one directed acyclic graph
-WARN  (AG0100) : Find logical loop signal : "env_vol[3]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl":511)
-WARN  (AG0100) : Find logical loop signal : "env_vol[3]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl":511)
-WARN  (AG0100) : Find logical loop signal : "env_vol[3]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl":511)
+WARN  (AG0100) : Find logical loop signal : "env_vol[3]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl":511)
+WARN  (AG0100) : Find logical loop signal : "env_vol[3]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl":511)
+WARN  (AG0100) : Find logical loop signal : "env_vol[3]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl":511)
 WARN  (AG0101) : The netlist is not one directed acyclic graph
-WARN  (AG0100) : Find logical loop signal : "env_vol[2]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl":511)
-WARN  (AG0100) : Find logical loop signal : "env_vol[2]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl":511)
-WARN  (AG0100) : Find logical loop signal : "env_vol[2]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl":511)
+WARN  (AG0100) : Find logical loop signal : "env_vol[2]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl":511)
+WARN  (AG0100) : Find logical loop signal : "env_vol[2]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl":511)
+WARN  (AG0100) : Find logical loop signal : "env_vol[2]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl":511)
 WARN  (AG0101) : The netlist is not one directed acyclic graph
-WARN  (AG0100) : Find logical loop signal : "env_vol[1]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl":511)
-WARN  (AG0100) : Find logical loop signal : "env_vol[1]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl":511)
-WARN  (AG0100) : Find logical loop signal : "env_vol[1]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl":511)
+WARN  (AG0100) : Find logical loop signal : "env_vol[1]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl":511)
+WARN  (AG0100) : Find logical loop signal : "env_vol[1]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl":511)
+WARN  (AG0100) : Find logical loop signal : "env_vol[1]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl":511)
 WARN  (AG0101) : The netlist is not one directed acyclic graph
-WARN  (AG0100) : Find logical loop signal : "env_vol[0]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl":511)
-WARN  (AG0100) : Find logical loop signal : "env_vol[0]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl":511)
-WARN  (AG0100) : Find logical loop signal : "env_vol[0]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl":511)
+WARN  (AG0100) : Find logical loop signal : "env_vol[0]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl":511)
+WARN  (AG0100) : Find logical loop signal : "env_vol[0]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl":511)
+WARN  (AG0100) : Find logical loop signal : "env_vol[0]"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl":511)
 WARN  (AG0101) : The netlist is not one directed acyclic graph
-WARN  (AG0100) : Find logical loop signal : "env_inc"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl":511)
-WARN  (AG0100) : Find logical loop signal : "env_inc"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl":511)
-WARN  (AG0100) : Find logical loop signal : "env_inc"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/PSG_YM2149/YM2149.vhdl":511)
+WARN  (AG0100) : Find logical loop signal : "env_inc"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl":511)
+WARN  (AG0100) : Find logical loop signal : "env_inc"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl":511)
+WARN  (AG0100) : Find logical loop signal : "env_inc"("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/PSG_YM2149/YM2149.vhdl":511)
 WARN  (AG0101) : The netlist is not one directed acyclic graph
 [80%] Tech-Mapping Phase 3 completed
 [90%] Tech-Mapping Phase 4 completed
-WARN  (NL0002) : The module "scc_wave_mul" instantiated to "u_mul" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/ocm/scc_wave2.vhd":394)
-WARN  (NL0002) : The module "pulse_min" instantiated to "mreq_rd_min_1s1" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/msx_debug/timing_debug.v":144)
-WARN  (NL0002) : The module "monostable" instantiated to "mono2" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/asgard.v":1941)
-WARN  (NL0002) : The module "CLOCK_DIV" instantiated to "cpuclkd" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_top.v":368)
-WARN  (NL0002) : The module "audio_info_frame" instantiated to "audio_info_frame" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/packet_picker.sv":143)
-WARN  (NL0002) : The module "audio_sample_packet" instantiated to "audio_sample_packet" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/packet_picker.sv":131)
-WARN  (NL0002) : The module "auxiliary_video_information_info_frame" instantiated to "auxiliary_video_information_info_frame" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/packet_picker.sv":137)
-WARN  (NL0002) : The module "source_product_description_info_frame" instantiated to "source_product_description_info_frame" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/packet_picker.sv":140)
-WARN  (NL0002) : The module "audio_info_frame" instantiated to "audio_info_frame" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/packet_picker.sv":143)
-WARN  (NL0002) : The module "audio_sample_packet" instantiated to "audio_sample_packet" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/packet_picker.sv":131)
-WARN  (NL0002) : The module "auxiliary_video_information_info_frame" instantiated to "auxiliary_video_information_info_frame" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/packet_picker.sv":137)
-WARN  (NL0002) : The module "source_product_description_info_frame" instantiated to "source_product_description_info_frame" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/src/hdmi/packet_picker.sv":140)
-WARN  (NL0002) : The module "VDP_NTSC_PAL" instantiated to "U_VDP_NTSC_PAL" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp.v":481)
-WARN  (NL0002) : The module "palette_g" instantiated to "U_PALETTEMEMG" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_register.v":292)
-WARN  (NL0002) : The module "VDP_LINEBUF" instantiated to "U_BUF_GE" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_doublebuf.v":62)
-WARN  (NL0002) : The module "VDP_LINEBUF" instantiated to "U_BUF_GO" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_doublebuf.v":87)
-WARN  (NL0002) : The module "VDP_LINEBUF" instantiated to "U_BUF_RE" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_doublebuf.v":54)
-WARN  (NL0002) : The module "VDP_LINEBUF" instantiated to "U_BUF_RO" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/vdp/vdp_doublebuf.v":79)
-[95%] Generate netlist file "/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/impl/gwsynthesis/MSX_asgard_wt101c.vg" completed
-[100%] Generate report file "/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/impl/gwsynthesis/MSX_asgard_wt101c_syn.rpt.html" completed
+WARN  (NL0002) : The module "scc_wave_mul" instantiated to "u_mul" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/ocm/scc_wave2.vhd":394)
+WARN  (NL0002) : The module "pulse_min" instantiated to "mreq_rd_min_1s1" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/msx_debug/timing_debug.v":144)
+WARN  (NL0002) : The module "monostable" instantiated to "mono2" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/asgard.v":1944)
+WARN  (NL0002) : The module "CLOCK_DIV" instantiated to "cpuclkd" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_top.v":368)
+WARN  (NL0002) : The module "audio_info_frame" instantiated to "audio_info_frame" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/packet_picker.sv":143)
+WARN  (NL0002) : The module "audio_sample_packet" instantiated to "audio_sample_packet" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/packet_picker.sv":131)
+WARN  (NL0002) : The module "auxiliary_video_information_info_frame" instantiated to "auxiliary_video_information_info_frame" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/packet_picker.sv":137)
+WARN  (NL0002) : The module "source_product_description_info_frame" instantiated to "source_product_description_info_frame" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/packet_picker.sv":140)
+WARN  (NL0002) : The module "audio_info_frame" instantiated to "audio_info_frame" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/packet_picker.sv":143)
+WARN  (NL0002) : The module "audio_sample_packet" instantiated to "audio_sample_packet" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/packet_picker.sv":131)
+WARN  (NL0002) : The module "auxiliary_video_information_info_frame" instantiated to "auxiliary_video_information_info_frame" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/packet_picker.sv":137)
+WARN  (NL0002) : The module "source_product_description_info_frame" instantiated to "source_product_description_info_frame" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/src/hdmi/packet_picker.sv":140)
+WARN  (NL0002) : The module "VDP_NTSC_PAL" instantiated to "U_VDP_NTSC_PAL" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp.v":481)
+WARN  (NL0002) : The module "palette_g" instantiated to "U_PALETTEMEMG" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_register.v":292)
+WARN  (NL0002) : The module "VDP_LINEBUF" instantiated to "U_BUF_GE" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_doublebuf.v":62)
+WARN  (NL0002) : The module "VDP_LINEBUF" instantiated to "U_BUF_GO" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_doublebuf.v":87)
+WARN  (NL0002) : The module "VDP_LINEBUF" instantiated to "U_BUF_RE" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_doublebuf.v":54)
+WARN  (NL0002) : The module "VDP_LINEBUF" instantiated to "U_BUF_RO" is swept in optimizing("/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/vdp/vdp_doublebuf.v":79)
+[95%] Generate netlist file "/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/impl/gwsynthesis/MSX_asgard_wt101c.vg" completed
+[100%] Generate report file "/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/impl/gwsynthesis/MSX_asgard_wt101c_syn.rpt.html" completed
 GowinSynthesis finish

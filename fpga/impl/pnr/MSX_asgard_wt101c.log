@@ -1,7 +1,7 @@
-Reading netlist file: "/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/impl/gwsynthesis/MSX_asgard_wt101c.vg"
-Parsing netlist file "/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/impl/gwsynthesis/MSX_asgard_wt101c.vg" completed
+Reading netlist file: "/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/impl/gwsynthesis/MSX_asgard_wt101c.vg"
+Parsing netlist file "/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/impl/gwsynthesis/MSX_asgard_wt101c.vg" completed
 Processing netlist completed
-Reading constraint file: "/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/msx_asgard_wt10x.cst"
+Reading constraint file: "/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/msx_asgard_wt10x.cst"
 Physical Constraint parsed completed
 Running placement......
 [10%] Placement Phase 0 completed
@@ -21,10 +21,10 @@ Bitstream generation in progress......
 Bitstream generation completed
 Running power analysis......
 [100%] Power analysis completed
-Generate file "/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/impl/pnr/MSX_asgard_wt101c.power.html" completed
-Generate file "/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/impl/pnr/MSX_asgard_wt101c.pin.html" completed
-Generate file "/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/impl/pnr/MSX_asgard_wt101c.rpt.html" completed
-Generate file "/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/impl/pnr/MSX_asgard_wt101c.rpt.txt" completed
-Generate file "/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k/fpga/impl/pnr/MSX_asgard_wt101c.tr.html" completed
-Sun Aug 30 12:40:05 2026
+Generate file "/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/impl/pnr/MSX_asgard_wt101c.power.html" completed
+Generate file "/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/impl/pnr/MSX_asgard_wt101c.pin.html" completed
+Generate file "/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/impl/pnr/MSX_asgard_wt101c.rpt.html" completed
+Generate file "/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/impl/pnr/MSX_asgard_wt101c.rpt.txt" completed
+Generate file "/home/albert/Documents/02-PROJECTS/msx-asgard/MSXasgard_tn20k.herraa1/fpga/impl/pnr/MSX_asgard_wt101c.tr.html" completed
+Mon Aug 31 22:28:08 2026
 
